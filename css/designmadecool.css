@@ -385,7 +385,7 @@ img {
   top: 0.3em;
   width: 5.4em;
   height: 4.3em;
-  background-image: url("https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/62627ea842d404478f7caa99_logo.svg");
+  /*background-image: url("https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/62627ea842d404478f7caa99_logo.svg");*/
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -492,15 +492,15 @@ img {
   right: 0%;
   bottom: 0%;
   display: block;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  /*-webkit-box-orient: horizontal;*/
+  /*-webkit-box-direction: normal;*/
+  /*-webkit-flex-direction: row;*/
+  /*-ms-flex-direction: row;*/
+  /*flex-direction: row;*/
+  /*-webkit-box-pack: center;*/
+  /*-webkit-justify-content: center;*/
+  /*-ms-flex-pack: center;*/
+  /*justify-content: center;*/
 }
 
 .about-rgt-wrap {
@@ -2180,7 +2180,7 @@ img {
 
 .roto-track {
   position: static;
-  top: -40.6em;
+  top: -0.6em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2207,16 +2207,16 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 200vw;
-  height: 100vh;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  height: 50vh;
+  /*-webkit-box-orient: horizontal;*/
+  /*-webkit-box-direction: normal;*/
+  /*-webkit-flex-direction: row;*/
+  /*-ms-flex-direction: row;*/
+  /*flex-direction: row;*/
+  /*-webkit-box-align: start;*/
+  /*-webkit-align-items: flex-start;*/
+  /*-ms-flex-align: start;*/
+  /*align-items: flex-start;*/
 }
 
 .hori---scroll {
@@ -2969,6 +2969,7 @@ img {
   }
 
   .hero-cont-wrap {
+    opacity: 0.1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
