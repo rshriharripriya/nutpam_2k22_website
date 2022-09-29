@@ -1083,7 +1083,15 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
-
+.sphere-cont.is-5 {
+  position: absolute;
+  left: 18.5em;
+  top: 7.5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 .sphere-cont.is-2 {
   position: absolute;
   left: auto;
@@ -1823,7 +1831,7 @@ img {
 
 .skills-webdesign-ol-text.is-1 {
   width: 71.6em;
-  height: 8.2em;
+  height: 26.2em;
 }
 
 .cta-para-wrap {
@@ -2238,7 +2246,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 400vw;
+  width: 500vw;
   height: 100vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
