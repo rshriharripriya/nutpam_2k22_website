@@ -3599,3 +3599,67 @@ img {
   font-style: normal;
   font-display: swap;
 }
+#timer {
+  position: absolute;
+  left: 98%;
+  top: 4%;
+  transform: translate(-98%, -4%);
+  color: #cccbb0;
+  font-size: 2rem;
+  opacity: 0.25;
+  text-align: right;
+  width: 25%;
+}
+#timer small {
+  font-size: 1rem;
+  display: block;
+}
+#countdown {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+#countdown .counter {
+  width: 192px;
+  position: relative;
+  font-family: Glorify, sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+#countdown .counter span::before {
+  content: attr(b);
+}
+#countdown .counter span.ping::before {
+  animation: pingEffect 0.25s 1 forwards;
+}
+#countdown .counter b {
+  font-size: 14px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+@-moz-keyframes pingEffect {
+  to {
+    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
+  }
+}
+@-webkit-keyframes pingEffect {
+  to {
+    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
+  }
+}
+@-o-keyframes pingEffect {
+  to {
+    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
+  }
+}
+@keyframes pingEffect {
+  to {
+    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
+  }
+}
