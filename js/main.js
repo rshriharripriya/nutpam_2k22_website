@@ -14261,8 +14261,7 @@ setTimeout(() => {
   setInterval(count, 1000);
 }, d % 1000);
 
-if (new Date()>new Date('2022-10-28T10:00:00'))
-{
+if (new Date() > new Date('2022-10-28T10:00:00')) {
   d = null;
   count.seconds = null;
   count.hours = null;
@@ -14270,3 +14269,7 @@ if (new Date()>new Date('2022-10-28T10:00:00'))
   count.days = null;
 
 }
+$('.toggle-menu').click (function(){
+  $(this).toggleClass('active');
+  $('#menu').toggleClass('open');
+});
