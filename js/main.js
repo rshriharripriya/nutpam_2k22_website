@@ -14215,7 +14215,7 @@ Webflow.require('ix2').init(
 
 const gc = s => document.querySelector('#countdown [count="' + s + '"] span');
 
-let d = new Date('2022-10-28T00:10:00') - new Date();
+let d = new Date('2022-10-28T10:00:00') - new Date();
 
 const mainCalc = (s, t, c) => {
   gc(s).classList.remove('ping');
@@ -14260,3 +14260,13 @@ setTimeout(() => {
   count(true);
   setInterval(count, 1000);
 }, d % 1000);
+
+if (new Date()>new Date('2022-10-28T10:00:00'))
+{
+  d = null;
+  count.seconds = null;
+  count.hours = null;
+  count.minutes = null;
+  count.days = null;
+
+}
