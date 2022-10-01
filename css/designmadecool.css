@@ -1840,6 +1840,7 @@ img {
 }
 
 .about-door {
+
   position: static;
   left: 0%;
   right: 0%;
@@ -1875,6 +1876,7 @@ img {
   z-index: 2;
   display: block;
   overflow: visible;
+  padding-top: 12vh;
   width: 82.5em;
   height: 50em;
   margin-right: auto;
@@ -2364,6 +2366,7 @@ img {
 
 .loader-img-cont {
   position: relative;
+  alignment: center;
   overflow: hidden;
   width: 7.1em;
   height: 10.2em;
@@ -2376,10 +2379,10 @@ img {
 
 .loader-img {
   position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
+  /*left: 0%;*/
+  /*top: 0%;*/
+  /*right: 0%;*/
+  /*bottom: 0%;*/
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
@@ -3604,7 +3607,7 @@ img {
   left: 98%;
   top: 4%;
   transform: translate(-98%, -4%);
-  color: #cccbb0;
+  color: #ffffff;
   font-size: 2rem;
   opacity: 0.25;
   text-align: right;
@@ -3622,44 +3625,48 @@ img {
   display: flex;
 }
 #countdown .counter {
-  width: 192px;
+  padding-top: 15vh;
+  font-size: 5vw;
+  width: 17vw;
   position: relative;
   font-family: Glorify, sans-serif;
-  font-size: 80px;
   text-transform: uppercase;
   text-align: center;
   line-height: 1;
 }
 #countdown .counter span::before {
   content: attr(b);
+    color: #ffffff;
+
 }
 #countdown .counter span.ping::before {
   animation: pingEffect 0.25s 1 forwards;
+  color: #e5e1e1;
 }
 #countdown .counter b {
-  font-size: 14px;
+  font-size: 1.5vw;
+  width: 17vw;
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  color: #ffffff;
 }
-@-moz-keyframes pingEffect {
-  to {
-    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
-  }
-}
-@-webkit-keyframes pingEffect {
-  to {
-    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
-  }
-}
-@-o-keyframes pingEffect {
-  to {
-    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
-  }
-}
-@keyframes pingEffect {
-  to {
-    text-shadow: 0 0 12px rgba(238,238,238,0.5), 0 0 32px rgba(238,238,238,0.3), 0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);
-  }
-}
+
+/*@-moz-keyframes pingEffect {*/
+/*  to {*/
+/*    text-shadow: 0 0 12px rgba(159,161,115,1), 0 0 32px rgba(227,229,197,1);*/
+/*    !*0 24px 48px rgba(238,238,238,0.1), 0 -24px 48px rgba(238,238,238,0.1);*!*/
+/*  }*/
+/*}*/
+/*@-webkit-keyframes pingEffect {*/
+/*  to {*/
+/* text-shadow: 0 0 12px rgba(159,161,115,1), 0 0 32px rgba(227,229,197,1);  }*/
+/*}*/
+/*@-o-keyframes pingEffect {*/
+/*  to {*/
+/* text-shadow: 0 0 12px rgba(159,161,115,1), 0 0 32px rgba(227,229,197,1);  }*/
+/*}*/
+/*@keyframes pingEffect {*/
+/*  to {*/
+/* text-shadow: 0 0 12px rgba(159,161,115,1), 0 0 32px rgba(227,229,197,1);  }*/
+/*}*/
