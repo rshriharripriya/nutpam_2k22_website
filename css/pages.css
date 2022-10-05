@@ -60,21 +60,21 @@ nav {
         color: #A5B1D6;
         text-decoration: none; }
         nav .nav__links ul li a span {
-          color: #379683; }
+          color: #EDE1A6; }
         nav .nav__links ul li a:hover {
           color: #C6D4ff; }
           nav .nav__links ul li a:hover span {
-            color: #8EE4AF; }
+            color: #EDE1A6; }
       nav .nav__links ul li .btn-link {
         border: none;
         border-radius: 1rem;
-        background-color: #379683;
+        background-color: #EDE1A6;
         padding: 0.5rem 1rem;
         color: #09192F;
         cursor: pointer;
         text-transform: uppercase; }
         nav .nav__links ul li .btn-link:hover {
-          background-color: #8EE4AF;
+          background-color: #EDE1A6;
           transform: scale(1);
           animation: pulse 2s infinite; }
 
@@ -107,7 +107,7 @@ nav {
       position: absolute;
       height: 0.3rem;
       width: 50%;
-      background: #379683;
+      background: #EDE1A6;
       opacity: 1;
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
@@ -193,10 +193,10 @@ header {
     margin: 0;
     font-family: "Playfair Display", serif;
     font-size: 7vw;
-    color: #379683;
+    color: #EDE1A6;
     font-weight: 900; }
     header h1:hover {
-      color: #8EE4AF; }
+      color: #EDE1A6; }
   header h2 {
     font-size: 2vw; }
     header h2 span {
@@ -226,7 +226,7 @@ header {
         .personal-social-media div ul li a {
           color: #A5B1D6; }
           .personal-social-media div ul li a:hover {
-            color: #8EE4AF; }
+            color: #EDE1A6; }
   @media (max-width: 768px) {
     .personal-social-media {
       position: relative;
@@ -259,7 +259,7 @@ header {
         .personal-contact div ul li a {
           color: #A5B1D6; }
           .personal-contact div ul li a:hover {
-            color: #8EE4AF; }
+            color: #EDE1A6; }
   @media (max-width: 768px) {
     .personal-contact {
       position: relative;
@@ -296,7 +296,7 @@ header {
     .about-me .about-me__container h3 {
       font-family: "Nova Mono", monospace;
       font-size: 1.2rem;
-      color: #8EE4AF; }
+      color: #EDE1A6; }
     .about-me .about-me__container .about-me__container--presentation {
       width: 50%;
       display: flex;
@@ -318,13 +318,13 @@ header {
         height: 3em;
         border: none;
         border-radius: 1rem;
-        background-color: #379683;
+        background-color: #EDE1A6;
         padding: 0.5rem 1rem;
         color: #09192F;
         cursor: pointer;
         text-transform: uppercase; }
         .about-me .about-me__container .about-me__container--presentation .presentation--resume .btn-resume:hover {
-          background-color: #8EE4AF;
+          background-color: #EDE1A6;
           transform: scale(1);
           animation: pulse 2s infinite; }
 
@@ -401,9 +401,9 @@ header {
     gap: 2rem; }
     .technologies .col--content ul li a {
       text-decoration: none;
-      color: #379683; }
+      color: #EDE1A6; }
       .technologies .col--content ul li a:hover {
-        color: #8EE4AF; }
+        color: #EDE1A6; }
 
 @media (max-width: 768px) {
   .technologies .col {
@@ -424,10 +424,10 @@ article {
 .article__header {
   font-size: 2rem;
   margin-bottom: 5rem;
-  border-bottom: 1px solid #379683;
+  border-bottom: 1px solid #EDE1A6;
   width: 100%; }
   .article__header span {
-    color: #379683; }
+    color: #EDE1A6; }
 
 .projects .projects__container {
   display: flex;
@@ -446,7 +446,7 @@ article {
   .projects .row h3 {
     font-size: 2rem;
     text-transform: uppercase;
-    color: #379683; }
+    color: #EDE1A6; }
 
 .projects .projects-gallery {
   display: flex;
@@ -490,7 +490,7 @@ article {
   .projects .project-description--header h4 {
     font-family: "Nova Mono", monospace;
     font-size: 1.2rem;
-    color: #8EE4AF; }
+    color :#EDE1A6; }
     @media (max-width: 768px) {
       .projects .project-description--header h4 {
         font-size: 1.7rem; } }
@@ -552,7 +552,7 @@ article {
         .projects .project-description--inner div a {
           font-size: 3rem; } }
       .projects .project-description--inner div a:hover {
-        color: #8EE4AF; }
+        color: #EDE1A6; }
 
 .projects .learning-projects {
   align-items: flex-end; }
@@ -600,13 +600,13 @@ article {
       height: 3em;
       border: none;
       border-radius: 1rem;
-      background-color: #379683;
+      background-color: #EDE1A6;
       padding: 0.5rem 1rem;
       color: #09192F;
       cursor: pointer;
       text-transform: uppercase; }
       .contact .contact__container .btn-contact:hover {
-        background-color: #8EE4AF;
+        background-color: #EDE1A6;
         transform: scale(1);
         animation: pulse 2s infinite; }
 
