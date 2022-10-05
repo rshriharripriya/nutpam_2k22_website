@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    h1 {
+        margin: 0;
+        font-family: $ff--playfair-display;
+        font-size: 7vw;
+        color: $clr--emerald-green;
+        font-weight: 900;
+
+        &:hover {
+            color: $clr--emerald-green-light;
+        }
+    }
+
+    h2 {
+        font-size: 2vw;
+
+        span {
+            text-decoration: underline;
+        }
+    }
+
+    @include for-phones-and-tablets-only{
+        h1 {
+            font-size: 15vw;
+            margin-bottom: 0.7em;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
+    }
+}

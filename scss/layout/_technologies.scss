@@ -1,0 +1,54 @@
+.technologies {
+    .technologies__container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .col {
+        display: flex;
+        gap: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .col--header {
+        flex-basis: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+
+        i {
+            font-size: 3rem;
+        }
+    }
+
+    .col--content {
+        flex-basis: 80%;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: $clr--emerald-green;
+
+                    &:hover {
+                        color: $clr--emerald-green-light;
+                    }
+                }
+            }
+        }
+    }
+
+    @include for-phones-and-tablets-only {
+        .col {
+            flex-direction: column;
+            text-align: justify;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.personal-contact {
+    height: 30vh;
+    position: fixed;
+    right: 3em;
+    bottom: 3em;
+
+    div {
+        height: 100%;
+
+        ul {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            list-style: none;
+
+            li {
+                font-size: 1.3rem;
+
+                a {
+                    color: $clr--light-blue;
+
+                    &:hover {
+                        color: $clr--emerald-green-light;
+                    }
+                }
+            }
+        }
+    }
+
+    // media queries
+    @include for-phones-and-tablets-only {
+        position: relative;
+        left: 0;
+        bottom: 3rem;
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+
+        div {
+            width: 100%;
+            ul {
+                flex-direction: row;
+            }
+        }
+    }
+}
