@@ -4018,7 +4018,7 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  margin-top: 2px;
+  margin-top: -30px;
   height: 20em;
 }
 
@@ -5691,7 +5691,7 @@ img {
   }
 
   .sphere-skill2 {
-    top: 5.4em;
+    top: 42.4em;
   }
 
   .face-small {
