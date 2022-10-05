@@ -1,0 +1,31 @@
+// MEDIA QUERIES
+@mixin for-phone-only {
+    @media (max-width: 424.999px) {
+        @content;
+    }
+}
+@mixin for-tablet-portrait-up {
+    @media (min-width: 425px) and (max-width: 767.999px) {
+        @content;
+    }
+}
+@mixin for-phones-and-tablets-only {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+@mixin for-laptop-only {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+@mixin for-desktop-up {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+@mixin for-big-desktop-up {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}

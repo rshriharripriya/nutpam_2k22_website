@@ -1,0 +1,16 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.article__header {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    border-bottom: 1px solid $clr--emerald-green;
+    width: 100%;
+    span {
+        color: $clr--emerald-green;
+    }
+}

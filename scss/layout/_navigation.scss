@@ -1,0 +1,157 @@
+@import "../components/nav-menu-btn";
+
+nav {
+    height: 8vh;
+    padding: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+    // NAV LOGO
+    .nav__logo {
+        img {
+            display: block;
+            width: 3.125rem;
+            height: auto;
+
+            // @include for-phones-and-tablets-only {
+            //     width: 6rem;
+            //     position: absolute;
+            //     left: 50%;
+            //     transform: translateX(-50%);
+            //     top: 20vh;
+            // }
+
+            &:hover {
+                animation: rotateLogo 1s ease-in-out;
+                animation-fill-mode: forwards;
+
+                // @include for-phones-and-tablets-only {
+                //     animation: none;
+                // }
+            }
+        }
+
+        @keyframes rotateLogo {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    // NAV LINKS
+    .nav__links {
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        min-width: 28.6rem;
+        max-width: 33.75rem;
+
+        ul {
+            padding: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            list-style: none;
+
+            li {
+                a {
+                    color: $clr--light-blue;
+                    text-decoration: none;
+
+                    span {
+                        color: $clr--emerald-green;
+                    }
+
+                    &:hover {
+                        color: $clr--very-light-blue;
+                        span {
+                            color: $clr--emerald-green-light;
+                        }
+                    }
+                }
+
+                .btn-link {
+                    border: none;
+                    border-radius: 1rem;
+                    background-color: $clr--emerald-green;
+                    padding: 0.5rem 1rem;
+                    color: $clr--very-dark-blue;
+                    cursor: pointer;
+
+                    text-transform: uppercase;
+
+                    &:hover {
+                        background-color: $clr--emerald-green-light;
+                        transform: scale(1);
+                        animation: pulse 2s infinite;
+                    }
+
+                    @keyframes pulse {
+                        0% {
+                            transform: scale(0.95);
+                            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+                        }
+
+                        70% {
+                            transform: scale(1);
+                            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                        }
+
+                        100% {
+                            transform: scale(0.95);
+                            box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .nav__menu-toggler {
+        display: none; // on desktop view
+        // Include animation from components/nav-menu-btn
+        @include menu-animation;
+    }
+
+    //  MEDIA QUERIES
+    @include for-phones-and-tablets-only {
+        .nav__links {
+            background-color: $clr--very-dark-blue;
+            z-index: 999;
+            position: absolute;
+            left: 0;
+            min-width: 100vw;
+            top: 11vh;
+            height: 92vh;
+            transform: translateX(-120%);
+            transition: transform 600ms ease;
+
+            // Flex
+            ul {
+                flex-direction: column;
+                height: 50%;
+                font-size: 1.2rem;
+            }
+        }
+
+        .nav__links.active-nav-links {
+            transform: translateX(0%);
+        }
+
+        .nav__menu-toggler {
+            display: block;
+        }
+    }
+}

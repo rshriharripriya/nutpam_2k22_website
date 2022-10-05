@@ -1,0 +1,204 @@
+.projects {
+    .projects__container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+        gap: 10rem;
+
+        @include for-phones-and-tablets-only {
+            width: 100%;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h3 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: $clr--emerald-green;
+        }
+    }
+
+    .projects-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .projects-gallery__project {
+        display: flex;
+        justify-content: center;
+
+        position: relative;
+
+        @include for-phones-and-tablets-only {
+            flex-direction: column;
+            gap: 2em;
+        }
+    }
+
+    .project-image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+
+            &.img-desktop {
+                display: block;
+
+                @include for-phones-and-tablets-only {
+                    display: none;
+                }
+            }
+
+            &.img-mobile {
+                display: none;
+
+                @include for-phones-and-tablets-only {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .project-description {
+        width: 100%;
+    }
+
+    .project-description--header {
+        text-align: right;
+
+        @include for-phones-and-tablets-only {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        h4 {
+            font-family: $ff--nova-mono;
+            font-size: 1.2rem;
+            color: $clr--emerald-green-light;
+
+            @include for-phones-and-tablets-only {
+                font-size: 1.7rem;
+            }
+        }
+    }
+
+    .project-description--inner {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%);
+        right: 0;
+        background-color: $clr--dark-imperial-blue;
+        width: 60%;
+
+        border-radius: 0.6em;
+        padding: 1em;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5em;
+
+        @include for-phones-and-tablets-only {
+            gap: 2em;
+        }
+
+        p {
+            a {
+                color: $clr--very-light-blue;
+            }
+
+            @include for-phones-and-tablets-only {
+                text-align: justify;
+                font-size: 1.1rem;
+            }
+        }
+
+        @include for-phones-and-tablets-only {
+            position: static;
+            transform: translateY(0%);
+            width: 100%;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 1em;
+            width: 100%;
+
+            color: $clr--emerald-green-soft;
+
+            @include for-phones-and-tablets-only {
+                justify-content: space-evenly;
+                font-size: 1.1rem;
+            }
+
+            a {
+                color: $clr--emerald-green-soft;
+                text-decoration: none;
+
+                &:hover {
+                    color: $clr--very-light-blue;
+                }
+            }
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            gap: 1em;
+            justify-content: flex-end;
+
+            @include for-phones-and-tablets-only {
+                justify-content: space-evenly;
+            }
+
+            a {
+                color: $clr--very-light-blue;
+                font-size: 1.3rem;
+
+                @include for-phones-and-tablets-only {
+                    font-size: 3rem;
+                }
+
+                &:hover {
+                    color: $clr--emerald-green-light;
+                }
+            }
+        }
+    }
+
+    .learning-projects {
+        align-items: flex-end;
+
+        @include for-phones-and-tablets-only {
+            align-items: flex-start;
+        }
+        > div {
+            > div {
+                flex-direction: row-reverse;
+
+                @include for-phones-and-tablets-only {
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .project-description--header {
+            text-align: left;
+
+            @include for-phones-and-tablets-only {
+                text-align: center;
+            }
+        }
+
+        .project-description--inner {
+            left: 0;
+        }
+    }
+}

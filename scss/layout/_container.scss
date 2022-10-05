@@ -1,0 +1,9 @@
+.container {
+    width: 60%;
+    max-width: 1024px;
+    margin: 0 auto;
+
+    @include for-phones-and-tablets-only {
+        width: 80%;
+    }
+}
