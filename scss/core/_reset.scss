@@ -1,0 +1,22 @@
+html {
+    line-height: 1.15;
+
+    overflow-x: hidden; // fixes overflow issues made by animation
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
