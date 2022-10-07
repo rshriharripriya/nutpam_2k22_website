@@ -456,6 +456,7 @@ h6 {
 
 p {
   margin-top: 0;
+  margin-left: 10em;
   margin-bottom: 10px
 }
 
@@ -5145,6 +5146,8 @@ img {
 
   p {
     font-size: 3em;
+    margin-left: 10em;
+    margin-top: auto;
   }
 
   .section {
