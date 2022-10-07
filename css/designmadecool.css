@@ -3050,6 +3050,7 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5390,7 +5391,7 @@ img {
   }
 
   .contact-cont-wrap {
-    height: 175em;
+    height: 135em;
     padding-top: 20px;
   }
 

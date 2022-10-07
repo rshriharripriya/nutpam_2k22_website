@@ -441,7 +441,7 @@ header {
 
 article {
   min-height: 100vh;
-  margin-bottom: 0rem;
+  margin-bottom: -1rem;
   padding-top: 1.5rem; }
 
 .article-container {
