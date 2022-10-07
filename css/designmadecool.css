@@ -2937,7 +2937,7 @@ img {
 
 .skill-mid-wrap {
   position: relative;
-  top: -1.88em;
+  /*top: -2.88em;*/
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2946,11 +2946,15 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  font-size: 3vh;
+  color: white;
+  width: 80vw;
+  /*right:30%;*/
 }
 
 .skill-btm-wrap {
   position: relative;
-  top: -5.48em;
+  top: -3.48em;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3190,6 +3194,7 @@ img {
   width: 10.2em;
   height: 2.3em;
   margin-top: -6px;
+  top:0;
   background-image: url("https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/6264e71cbeb21ac2ff1dfe1e_heading-btmline.svg");
   background-position: 0px 0px;
   background-size: cover;
@@ -4077,7 +4082,7 @@ img {
 
 .about-door-wrap {
   position: relative;
-  top: 6em;
+  /*top: 6em;*/
   right: 0%;
   bottom: 0%;
   z-index: 2;
@@ -5165,6 +5170,7 @@ img {
 
   .section.is-hero {
     height: 100vh;
+    width: 100vw;
     margin-bottom: 0vh;
   }
 
@@ -5223,6 +5229,8 @@ img {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  left: -87.4em;
+
   }
 
   .daimond-wrap {
@@ -5770,7 +5778,7 @@ img {
   }
 
   .h2 {
-    font-size: 7.4em;
+    font-size: 6vh;
     text-align: left;
   }
 
