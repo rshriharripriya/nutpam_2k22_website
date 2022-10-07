@@ -306,7 +306,7 @@ html.w-mod-touch * {
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 0
+  border-radius: 0;
 }
 
 input.w-button {
@@ -2293,7 +2293,9 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  width: 80vw !important;
   height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2317,7 +2319,7 @@ img {
 .container {
   position: relative;
   display: block;
-  width: 82.5em;
+  width: 89em;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-orient: vertical;
@@ -2635,6 +2637,7 @@ img {
   color: #0f171f;
   font-size: 3.4vh;
   line-height: 0.9;
+
 }
 
 .nav-contact-btn:hover {
@@ -3631,7 +3634,7 @@ img {
   position: absolute;
   left: auto;
   top: auto;
-  right: 0%;
+  right: 50%;
   bottom: 9.1em;
   width: 18.7em;
   height: 7em;
@@ -4021,6 +4024,7 @@ img {
   bottom: 0%;
   margin-top: -30px;
   height: 20em;
+  width: 500px;
 }
 
 .skills-webdesign-ol-text.is-1 {
@@ -5285,10 +5289,12 @@ img {
   }
 
   .nav-contact-btn {
-    padding: 1.1em 1.2em 0.8em;
+    /*padding: 1.1em 1.2em 0.8em;*/
     font-size: 1.25em;
+    background-color: transparent;
     width: 80%;
-    alignment: center;
+    alignment: center !important;
+    color: white;
   }
 
   .about-cont-wrap {
@@ -5782,10 +5788,14 @@ img {
   }
 
   .skill-p1 {
-    margin-bottom: 0em;
+    margin-bottom: 2em;
+    align-content: center;
     font-size: 4.1em;
+    width: 300px;
+    margin-left: 200px;
   }
 }
+
 
 @font-face {
   font-family: 'Glorify';
@@ -6357,4 +6367,7 @@ img {
 /*		 opacity: 1;*/
 /*	}*/
 /*}*/
-
+.dbms{
+  height: 50vh;
+  float: bottom;
+}
