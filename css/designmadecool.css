@@ -2588,7 +2588,7 @@ img {
   top: 0.3em;
   width: 5.4em;
   height: 4.3em;
-  background-image: url("faviconn.png");
+  background-image: url('../faviconn.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2620,6 +2620,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   height: 9vh;
+  width: 25vh;
   padding: 0.3em 1.1em 0em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
