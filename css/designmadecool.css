@@ -3199,7 +3199,10 @@ img {
   -ms-flex-align: stretch;
   align-items: stretch;
 }
+.ABOUTTOP{
+  top:0 !important;
 
+}
 .skill-heading-wrap {
   position: relative;
   display: -webkit-box;
@@ -5189,6 +5192,24 @@ img {
   h1 {
     font-size: 11.2em;
   }
+ .skill-mid-wrap {
+  position: relative;
+  /*top: -2.88em;*/
+   padding: 30px;
+   text-align: justify ;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 2vh;
+  color: white;
+  /*width: 90vw;*/
+  /*right:30%;*/
+}
 
   p {
     font-size: 3em;
