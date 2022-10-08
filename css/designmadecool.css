@@ -855,7 +855,16 @@ textarea.w-input, textarea.w-select {
 .w-hidden-main {
   display: none !important
 }
-
+@media screen and (max-width: 1500px) {
+  .skills-para {
+    position: absolute;
+    left: 40%;
+    top: 53.5vh;
+    bottom: 9.1em;
+    width: 18.7em;
+    height: 7em;
+  }
+}
 @media screen and (max-width: 991px) {
   .w-container {
     max-width: 728px
@@ -928,7 +937,14 @@ textarea.w-input, textarea.w-select {
   .w-hidden-main {
     display: inherit !important
   }
-
+  .skills-para {
+    position: absolute;
+    left: 0%;
+    top: 53.5vh;
+    bottom: 9.1em;
+    width: 18.7em;
+    height: 7em;
+  }
   .w-hidden-medium {
     display: inherit !important
   }
@@ -1070,6 +1086,14 @@ textarea.w-input, textarea.w-select {
     width: 100%
   }
 }
+
+@media screen and (max-width: 290px) {
+ .ABOUT-2{
+   margin-top: 30vh !important;
+ }
+}
+
+
 
 .w-widget {
   position: relative
@@ -2621,7 +2645,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   height: 9vh;
-  width: 25vh;
+  width: 30vh;
   padding: 0.3em 1.1em 0em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -3640,9 +3664,8 @@ img {
 
 .skills-para {
   position: absolute;
-  left: auto;
-  top: auto;
-  right: 50%;
+  /*left: auto;*/
+  /*top: 345px;*/
   bottom: 9.1em;
   width: 18.7em;
   height: 7em;
@@ -5304,6 +5327,7 @@ img {
     font-size: 1.25em;
     background-color: transparent;
     width: 80%;
+    left: 2vh;
     alignment: center !important;
     color: white;
   }
@@ -5545,6 +5569,8 @@ img {
   .skills-para {
     bottom: -38.4em;
     width: 78.5em;
+    right: 50% !important;
+    left: auto;
     height: auto;
   }
 
@@ -5802,8 +5828,8 @@ img {
     margin-bottom: 2em;
     align-content: center;
     font-size: 4.1em;
-    width: 300px;
-    margin-left: 200px;
+    width: 60vh;
+    margin-left: 69%;
   }
 }
 
