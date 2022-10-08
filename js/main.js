@@ -5,6 +5,18 @@
  *   var Webflow = Webflow || [];
  *   Webflow.push(readyFunction);
  */
+
+
+$(document).ready(function () {
+                  $('.btn-close').click(function () {
+                        $('.menu').toggleClass('active');
+                  });
+            });
+            $(document).ready(function () {
+                  $('.menu-btn').click(function () {
+                        $('.menu').toggleClass('active');
+                  });
+            });
 !function (t) {
   var e = {};
 
@@ -17217,5 +17229,4 @@ var swiper = new Swiper('.swiper-container', {
   loop: true,
   autoplay: true
 });
-
 
