@@ -5,6 +5,18 @@
  *   var Webflow = Webflow || [];
  *   Webflow.push(readyFunction);
  */
+
+
+$(document).ready(function () {
+                  $('.btn-close').click(function () {
+                        $('.menu').toggleClass('active');
+                  });
+            });
+            $(document).ready(function () {
+                  $('.menu-btn').click(function () {
+                        $('.menu').toggleClass('active');
+                  });
+            });
 !function (t) {
   var e = {};
 
@@ -9553,7 +9565,7 @@ Webflow.require('ix2').init(
                   "selector": ".hori-frame",
                   "selectorGuids": ["40330966-4cd1-c0a3-c400-6392b3a3aca4"]
                 },
-                "xValue": -300,
+                "xValue": -400,
                 "xUnit": "vw",
                 "yUnit": "PX",
                 "zUnit": "PX"
@@ -17217,5 +17229,4 @@ var swiper = new Swiper('.swiper-container', {
   loop: true,
   autoplay: true
 });
-
 
