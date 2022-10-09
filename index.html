@@ -256,30 +256,38 @@
 
   <div class="hero">
 
-    <div class="menu-btn">
-      <span></span>
-      <span></span>
+    <div class="menu-btn burger "  onclick="show()">
+      <span  class="burger__patty"></span>
+      <span  class="burger__patty"></span>
 
     </div>
   </div>
 
   <div class="menu active">
     <span class="btn-close">&times;</span>
-    <ul class="links-container">
-      <li class="menu-title">MENU</li>
+    <ul class="links-container menu__list">
+      <li class="menu-title pb-1 menu__item">MENU</li>
       <li>
-        <a href="" class="home">HOME</a>
+        <a href="#" class="home pt-5 pb-5 menu__item">HOME</a>
       </li>
       <li>
-        <a href="" class="places">PLACES</a>
+        <a href="#about" class="about pt-5 pb-5 menu__item">ABOUT</a>
 
       </li>
       <li>
-        <a href="" class="about">ABOUT</a>
+        <a href="#events" class="events pt-5 pb-5 menu__item">EVENTS</a>
 
       </li>
       <li>
-        <a href="" class="contact">CONTACT</a>
+        <a href="#team" class="team pt-5 pb-5 menu__item">TEAM</a>
+
+      </li>
+      <li>
+        <a href="#sponsors" class="sponsors pt-5 pb-5 menu__item">SPONSORS</a>
+
+      </li>
+      <li>
+        <a href="#contact" class="contact pt-5 menu__item">CONTACT US</a>
 
       </li>
 
@@ -471,14 +479,14 @@
     </div>
   </div>
 </section>
-<div data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45ca9" class="roto-track">
+<div data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45ca9" class="roto-track" >
   <div class="roto-cam">
-    <div class="roto-frame">
-      <section data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45cac" style="opacity:0" class="section ">
+    <div class="roto-frame" >
+      <section data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45cac" style="opacity:0" class="section " >
         <div class="container">
           <div data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45cae" class="about-door-wrap">
             <div class="about-cont-wrap">
-              <div class="skill-top-wrap">
+              <div class="skill-top-wrap" id ="about">
                 <div data-w-id="aedb2148-8f8b-fbfc-eee0-0c550de45cdc" class="skill-heading-wrap">
                   <h2 class="h2">About Nutpam</h2>
                   <div class="hedling-line-wrap"></div>
@@ -549,7 +557,7 @@
     </div>
   </div>
 </div>
-<div data-w-id="3fbae1a0-b34d-680f-7875-043c2f073f0f" class="hori---scroll">
+<div data-w-id="3fbae1a0-b34d-680f-7875-043c2f073f0f" class="hori---scroll" id ="events">
   <div class="hori-cam">
     <div data-w-id="06bed3f9-e8ea-3ce0-f72f-9a0161dc5f08" class="hori-frame">
       <section class="section is-fullvh-vw">
@@ -970,7 +978,7 @@
       <!-- https://github.com/Mr-silentcoder/Darkmovies -->
       <!-- Change Slider Design modifier in js  -->
 
-      <div class="work-heading-wrap">
+      <div class="work-heading-wrap" id="team">
         <div class="skill-heading-wrap">
           <h2 class="h2">Our Team</h2>
           <div class="hedling-line-wrap"></div>
@@ -1366,10 +1374,10 @@
 <!--  </section>-->
 
 <div class="secflow-hidden">
-  <section data-w-id="b989789d-fe0f-6f86-4436-013b433225c2" class="section">
+  <section data-w-id="b989789d-fe0f-6f86-4436-013b433225c2" class="section" >
     <div class="container is-quote">
       <div class="quote-cont-wrap">
-        <div class="quote-top-cont"><h1>Sponsers</h1>
+        <div class="quote-top-cont" id ="sponsors"><h1>Sponsers</h1>
 
           <!--          <div data-w-id="bee52259-7a77-90d6-da91-c9e16400848b" class="quote-design"><img-->
           <!--            src="https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/6296d49943729f7926a7a3b1_Design%201%40%202X-min.png"-->
@@ -1441,11 +1449,11 @@
     </div>
   </section>
 
-  <section data-w-id="eaf98140-4edf-73a1-7e08-15a37501b1f3" class="section">
+  <section data-w-id="eaf98140-4edf-73a1-7e08-15a37501b1f3" class="section" >
     <div class="container">
       <div class="contact-cont-wrap">
         <div class="contact-top-wrap">
-          <h3 data-w-id="caf0eef7-cc87-4c80-b857-d20340460332" style="opacity:0" class="h2 is-contact">
+          <h3 data-w-id="caf0eef7-cc87-4c80-b857-d20340460332" style="opacity:0" class="h2 is-contact" id ="contact">
             Contact Us</h3>
           <div data-w-id="19c26ebe-5a66-2e61-b69a-fd9fb7479bc0" style="opacity:0" class="cta-para-wrap">
             <p class="cta-para">Feel free to reachout if you have any quries</p>
@@ -1469,11 +1477,11 @@
             alt=""/></div>
         </div>
         <div class="contact-btm-wrap">
-          <!--           <a data-w-id="b1e4702a-0805-f266-872e-64bfe3037463" style="opacity:0"-->
-          <!--                                         href="#"-->
-          <!--                                         class="contact-footer-text-1 w-inline-block">-->
-          <!--          <p class="skill-p1">Email: designmadecool@gmail.com</p>-->
-          <!--        </a>-->
+                     <a data-w-id="b1e4702a-0805-f266-872e-64bfe3037463" style="opacity:0"
+                                                   href="#"
+                                                   class="contact-footer-text-1 w-inline-block">
+                    <p class="skill-p1">Email: designmadecool@gmail.com</p>
+                  </a>
           <div data-w-id="48e39bc9-b520-f481-2f8b-a04db38d30dc" style="opacity:0"
                class="contact-footer-text-1 is-hidden">
             <p class="sphere-text-p1">Made with much 💖 Love</p>
@@ -1486,11 +1494,11 @@
             loading="lazy" alt="" class="cta-img"/></a>
         </div>
 
-        <!--        <div data-w-id="34737ede-e58b-5046-a2ef-0cb04fd02a80" style="opacity:0" class="contact-sun">-->
-        <!--          <img-->
-        <!--            src="https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/6267cb2f9e5fef515cf4c5d2_contact-sun.svg"-->
-        <!--            loading="lazy" alt=""/>-->
-        <!--        </div>-->
+                <div data-w-id="34737ede-e58b-5046-a2ef-0cb04fd02a80" style="opacity:0" class="contact-sun">
+                  <img
+                    src="https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/6267cb2f9e5fef515cf4c5d2_contact-sun.svg"
+                    loading="lazy" alt=""/>
+                </div>
         <div data-w-id="81779f71-e2b2-bc75-e80e-193b98ed237d" style="opacity:0"
              class="contact-character-cont">
           <div style="opacity:0" class="contact-ch-bg-fire-cont">
