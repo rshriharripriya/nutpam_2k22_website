@@ -3009,6 +3009,7 @@ img {
 .skill2-cont-wrap {
   display: block;
   margin-top: 10em;
+  width:75vw;
 }
 
 .skill2-cont {
@@ -3017,6 +3018,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-left:100px;
   height: 55em;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -3641,6 +3643,7 @@ img {
 .skills-base-img {
   width: 100%;
   height: 100%;
+margin-bottom: 400666px;
 }
 
 .skills-sun-img {
@@ -3649,22 +3652,24 @@ img {
 }
 
 .skills-webdesign-text {
-  z-index: -4;
-  font-size: 11.5em;
-  font-weight: 600;
+  z-index: 100;
+  font-size: 6.5em;
+  font-weight: 60;
 }
 
 .skills-webdesign-text.is-1 {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   left: 0%;
   top: 0%;
-  right: 0%;
+  right: 10%;
   bottom: 0%;
 }
 
 .skills-num {
   position: absolute;
-  left: 0%;
+  left: 10%;
   top: 22.1em;
   right: auto;
   width: 13.75em;
@@ -4492,7 +4497,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 400vw;
+  width: 498vw !important;
   height: 100vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -5050,7 +5055,8 @@ img {
 .skills-webdesign-textwrap {
   position: absolute;
   top: 10em;
-  z-index: -4;
+  text-align: center;
+  z-index: 10;
   width: 73em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -5093,7 +5099,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 82em;
+  width: 70em;
   height: 45em;
 }
 
@@ -5104,7 +5110,7 @@ img {
   display: flex;
   width: 62em;
   height: 59em;
-  margin-top: -34px;
+  margin-bottom: 340px !important;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
@@ -5897,62 +5903,120 @@ img {
   font-display: swap;
 }
 
-#timer {
-  position: absolute;
-  left: 98%;
-  top: 4%;
-  transform: translate(-98%, -4%);
-  color: #ffffff;
-  font-size: 2rem;
-  opacity: 0.25;
-  text-align: right;
-  width: 25%;
+ #timer {
+    position: absolute;
+    left: 98%;
+    top: 40% !important;
+    transform: translate(-98%, -4%);
+    color: #ffffff;
+    font-size: 2rem;
+    opacity: 0.25;
+    text-align: right;
+    width: 25%;
+  }
+
+  #timer small {
+    font-size: 5rem;
+    display: block;
+  }
+
+  #countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  #countdown .counter {
+    padding-top: 15vh;
+    font-size: 4vw;
+    width: 17vw;
+    position: relative;
+    font-family: Glorify, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+  }
+
+  #countdown .counter span::before {
+    content: attr(b);
+    color: #ffffff;
+
+  }
+
+  #countdown .counter span.ping::before {
+    animation: pingEffect 0.25s 1 forwards;
+    color: #e5e1e1;
+  }
+
+  #countdown .counter b {
+    font-size: 2vw;
+    width: 17vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #ffffff;
+  }
+
+@media screen and (max-width: 479px) {
+
+  #timer {
+    position: absolute;
+    left: 98%;
+    top: 4%;
+    transform: translate(-98%, -4%);
+    color: #ffffff;
+    font-size: 2rem;
+    opacity: 0.25;
+    text-align: right;
+    width: 25%;
+  }
+
+  #timer small {
+    font-size: 5rem;
+    display: block;
+  }
+
+  #countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  #countdown .counter {
+    padding-top: 15vh;
+    font-size: 8vw;
+    width: 17vw;
+    position: relative;
+    font-family: Glorify, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+  }
+
+  #countdown .counter span::before {
+    content: attr(b);
+    color: #ffffff;
+
+  }
+
+  #countdown .counter span.ping::before {
+    animation: pingEffect 0.25s 1 forwards;
+    color: #e5e1e1;
+  }
+
+  #countdown .counter b {
+    font-size: 3vw;
+    width: 17vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #ffffff;
+  }
 }
-
-#timer small {
-  font-size: 5rem;
-  display: block;
-}
-
-#countdown {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-}
-
-#countdown .counter {
-  padding-top: 15vh;
-  font-size: 8vw;
-  width: 17vw;
-  position: relative;
-  font-family: Glorify, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1;
-}
-
-#countdown .counter span::before {
-  content: attr(b);
-  color: #ffffff;
-
-}
-
-#countdown .counter span.ping::before {
-  animation: pingEffect 0.25s 1 forwards;
-  color: #e5e1e1;
-}
-
-#countdown .counter b {
-  font-size: 3vw;
-  width: 17vw;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  color: #ffffff;
-}
-
 /*@-moz-keyframes pingEffect {*/
 /*  to {*/
 /*    text-shadow: 0 0 12px rgba(159,161,115,1), 0 0 32px rgba(227,229,197,1);*/

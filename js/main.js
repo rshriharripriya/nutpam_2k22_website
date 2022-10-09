@@ -9565,7 +9565,7 @@ Webflow.require('ix2').init(
                   "selector": ".hori-frame",
                   "selectorGuids": ["40330966-4cd1-c0a3-c400-6392b3a3aca4"]
                 },
-                "xValue": -300,
+                "xValue": -400,
                 "xUnit": "vw",
                 "yUnit": "PX",
                 "zUnit": "PX"
