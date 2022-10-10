@@ -17230,3 +17230,9 @@ var swiper = new Swiper('.swiper-container', {
   autoplay: true
 });
 
+	function show(){
+			$(".menu").css("display", "flex")
+		}
+		$(".menu__item").on('click', function(){
+			$(".menu").css("display", "none")
+		})
