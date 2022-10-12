@@ -149,3 +149,27 @@
 	 margin-left: -1.1rem;
 	 transition: margin-left 0.5s 0.8s, opacity 0.3s 0.5s;
 }
+@property --rotate {
+	syntax: "<angle>";
+	initial-value: 132deg;
+	inherits: false;
+  }
+  
+  :root {
+	--card-height: 65vh;
+	--card-width: calc(var(--card-height) / 1.5);
+  }
+  
+  
+  body {
+	min-height: 100vh;
+	background: #212534;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	box-sizing: border-box;
+  }
+  
+  

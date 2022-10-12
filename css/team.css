@@ -178,9 +178,9 @@ body {
   padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
   text-align: center;
-  -webkit-box-shadow:inset 0px 0px 8px 1px rgba(0,255,157,1) , 0px 0px 8px 1px rgba(0,255,157,1);
-  -moz-box-shadow:inset 0px 0px 8px 1px rgba(0,255,157,1) , 0px 0px 8px 1px rgba(0,255,157,1);
-  box-shadow:inset 0px 0px 8px 1px rgba(0,255,157,1) , 0px 0px 8px 1px rgba(0,255,157,1);
+  -webkit-box-shadow:inset 0px 0px 8px 1px rgb(251, 255, 165) , 0px 0px 8px 1px rgb(234, 255, 174);
+  -moz-box-shadow:inset 0px 0px 8px 1px rgb(254, 255, 201) , 0px 0px 8px 1px rgb(255, 251, 166);
+  box-shadow:inset 0px 0px 8px 1px rgb(247, 255, 196) , 0px 0px 8px 1px rgb(255, 246, 218);
   background: transparent !important;
     color: #ffffff;
   border: none !important;
