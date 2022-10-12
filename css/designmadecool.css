@@ -3,6 +3,12 @@
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5404,7 +5410,12 @@ img {
   z-index: 10000;
   margin-left: 4px;
 }
+.about-para{
+  font-family: "Times New Roman";
+  font-weight: 300 !important;
+  line-height: 20px !important;
 
+}
 .image-4 {
   opacity: 0.6;
 }
@@ -5420,8 +5431,8 @@ img {
 
   .skill-mid-wrap {
     position: relative;
-    /*top: -2.88em;*/
-    padding: 30px;
+    top: -2.88em;
+    /*padding: 30px;*/
     text-align: justify;
     display: -webkit-box;
     display: -webkit-flex;
@@ -5433,8 +5444,8 @@ img {
     justify-content: center;
     font-size: 2vh;
     color: white;
-    /*width: 90vw;*/
-    /*right:30%;*/
+    width: 100%;
+    /*right:-10%;*/
   }
 
   p {
@@ -5601,6 +5612,11 @@ img {
 
   .about-cont-wrap {
     height: 100vh;
+    padding: 0;
+      -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   }
 
   .about-rgt-wrap {
@@ -5663,7 +5679,7 @@ img {
   }
 
   .skill2-cont-wrap {
-    height: 100em;
+    height: 190em;
   }
 
   .work-project-cont {
@@ -5834,7 +5850,8 @@ img {
   }
 
   .skills-para {
-    bottom: -38.4em;
+    top: 80.4em!important;
+    /*padding-bottom: 3em !important;*/
     width: 78.5em;
     right: 50% !important;
     left: auto;
@@ -6091,13 +6108,18 @@ img {
     font-size: 3.4em;
   }
 
-  .skill-p1 {
-    margin-bottom: 2em;
-    align-content: center;
+   .skill-p1 {
+    margin-bottom: 2em !important;
+    align-content: center !important;
     font-size: 4.1em;
-    width: 60vh;
-    margin-left: 69%;
+    width: 50vh;
+    margin-left: 65%;
+
+
   }
+   .container{
+     width: 100vw !important;
+   }
 }
 
 
