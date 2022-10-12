@@ -4723,7 +4723,7 @@ img {
   display: flex;
   overflow: hidden;
   width: 498vw !important;
-  height: 100vh;
+  height: 295vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -6002,7 +6002,7 @@ img {
 
   .hori-frame {
     width: auto;
-    height: 549em;
+    height: 581em
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;

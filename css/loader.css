@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
+
+.loader-body {
+  color: #164411;
+  font-family: Consolas, Courier, monospace;
+  /*font-family: 'Source Code Pro', monospace;*/
+  font-size: 60px;
+  text-shadow: 0 0 15px #166029;
+  height: 100%;
+  width:100%;
+  background: radial-gradient(#222922, #000500);
+  font-weight: 400;
+  overflow: hidden;
+  text-align: center;
+    position: fixed;
+    z-index:100;
+    --webkit-transition: all 5s ease-out 1s;
+  }
+
+#loading {
+  /*position: relative;*/
+  /*top: 50%;*/
+  /*margin: 30px auto;*/
+  /*text-align: center;*/
+  /*margin: 450px auto;*/
+  /*padding-top:100px ;*/
+  /* height: 100%;
+  width:100%;
+  top: 50%;*/
+  margin: 300px auto;
+  letter-spacing: 20px;
+
+}
+
+.glow {
+  color: #13c74a;
+  text-shadow: 0px 0px 10px #16d751;
+}
+
+.loading span {
+  display: inline-block;
+  padding: 0 10px;
+  letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Type1
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
+
+.loader-body {
+  background: radial-gradient(#222922, #000500);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  overflow: hidden;
+  text-align: center;
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+    position: fixed;
+    z-index:100;
+    font-size: 50px;
+    width: 100%;
+}
+
+.word {
+  bottom: 0;
+  color: #fff;
+  font-size: 2.5em;
+  height: 2.5em;
+  left: 0;
+  line-height: 2.5em;
+  margin: auto;
+  right: 0;
+  position: absolute;
+  text-shadow: 0 0 10px rgba(50, 255, 50, 0.5), 0 0 5px rgba(100, 255, 100, 0.5);
+  top: 0
+}
+
+.word span {
+  display: inline-block;
+  transform: translateX(100%) scale(0.9);
+  transition: transform 500ms;
+}
+
+.word .done {
+  color: #6f6;
+  transform: translateX(0) scale(1);
+}
+
+.overlay {
+  background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+  background-size: 1000px 2px;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}*/
