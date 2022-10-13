@@ -12,7 +12,8 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+
 }
 
 ::-webkit-scrollbar {
@@ -1492,10 +1493,10 @@ textarea.w-input, textarea.w-select {
   z-index: -100
 }
 
-.w-background-video > video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none
-}
+/*.w-background-video > video::-webkit-media-controls-start-playback-button {*/
+/*  display: none !important;*/
+/*  -webkit-appearance: none*/
+/*}*/
 
 .w-background-video--control {
   position: absolute;
