@@ -2858,8 +2858,8 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 9vh;
-  width: 30vh;
+  height: 10vh;
+  width: 31vh;
   padding: 0.3em 1.1em 0em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -3890,11 +3890,11 @@ img {
 
 .skills-para {
   position: absolute;
-  /*left: auto;*/
-  /*top: 345px;*/
+  left: 67vh;
+  top: 71.2vh;
   bottom: 9.1em;
-    width: 16.7em;
-  height: 7em;
+  width: 16.9em;
+  height: 10em;
 
 }
 
@@ -5614,7 +5614,7 @@ img {
     /*padding: 1.1em 1.2em 0.8em;*/
     font-size: 1.25em;
     background-color: transparent;
-    width: 80%;
+    width: 90%;
     left: 2vh;
     alignment: center !important;
     color: white;
@@ -7059,6 +7059,10 @@ button.swiper-pagination-bullet {
 .hero .menu-btn:hover span:nth-child(2) {
   width: 65px;
   margin-left: -10px;
+}
+
+.hero .menu-btn:hover span:nth-child(3) {
+  width: 70px;
 }
 
 .hero .menu-btn span {

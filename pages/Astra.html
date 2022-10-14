@@ -1,614 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="description"
-            content="Nikola Radanović's frontend development portfolio"
-        />
-        <meta
-            name="author"
-            content="Nikola Radanović, radanovicnikola93@gmail.com"
-        />
-        <meta
-            name="keywords"
-            content="nikola, radanovic, web development, programming, frontend development, slovenia"
-        />
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta
+    name="description"
+    content="Nikola Radanović's frontend development portfolio"
+  />
+  <meta
+    name="author"
+    content="Nikola Radanović, radanovicnikola93@gmail.com"
+  />
+  <meta
+    name="keywords"
+    content="nikola, radanovic, web development, programming, frontend development, slovenia"
+  />
 
-        <meta
-            name="identifier-URL"
-            content=""
-        />
-        <meta name="pagename" content="Astra's Gambit" />
+  <meta
+    name="identifier-URL"
+    content=""
+  />
+  <meta name="pagename" content="Astra's Gambit"/>
 
-        <title></title>
+  <title></title>
 
-        <link
-            rel="icon"
-            href="/images/logo/logo-white-bg.png"
-            type="image/x-icon"
-        />
+  <link
+    rel="icon"
+    href="/images/logo/logo-white-bg.png"
+    type="image/x-icon"
+  />
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="/css/pages.css" />
-<!--        <link rel="stylesheet" href="/css/back-button.css" />-->
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/pages.css"/>
+  <!--        <link rel="stylesheet" href="/css/back-button.css" />-->
+  <!-- bootstrap links -->
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 
-        <!-- Fontawesome -->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-    </head>
-    <body>
-        <div class="presentation--resume nav-contact-btn p-5">
-            <a
-                class="btn-gold btn-lg active text-white" role="button" aria-pressed="true" href="../index.html" target="_blank">
-              <i class="fas fa-chevron-circle-left text-white"></i> Go Back</a>
+  <!-- Fontawesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="container">
+  <header>
+    <h1 id="header-main">Astra's Gambit</h1>
+    <h2 id="header-sub">
+      Valorant 5v5 Gaming Tournament </h2>
+  </header>
+</div>
+
+
+<div class="container mb-5">
+  <main>
+    <!-- ABOUT ME -->
+    <div class="article-container about-me" id="about-me">
+      <h2 class="article__header" id="header-1">
+        Rules & Guidelines
+      </h2>
+      <div class="about-me__container">
+        <div
+          class="about-me__container--presentation"
+          id="about-me-presentation"
+        >
+          <div class="presentation--intro para">
+            <!-- <h3>Rules</h3> -->
+            <ul>
+              <li> Toxic behaviour is not entertained and may lead to direct elimination.</li>
+              <li> Substitute players is not mandatory.</li>
+              <li> Tactical timeouts will be available for each side once per match.</li>
+
+            </ul>
+            <p class="para">Qualifiers:
+              - Every match will be an elimination round of best of 1.
+              - Coin tosses will be performed to decide to choose the map and sides before each match.
+              - Each team can ban a map before the starting of the match.
+              - Facture map is out by default in the map pool.
+              Finals:
+              - Finals will be a best of 3.
+              - Each team gets to ban and pick one map each and the last map by coin toss
+            </p>
+          </div>
         </div>
+        <!-- <div class="presentation--hobbies">
+            <h3>Hobbies</h3>
+          <div class="para">
+            <ul>
+                <li>Watching football</li>
+                <li>Photography and video-drone footage</li>
+                <li>Travel</li>
+            </ul>
+            </div>
+        </div> -->
+        <!-- <div class="presentation--hobbies">
+            <h3>Certificates</h3>
+            <ul>
+                <li>
+                    <a
+                        href="https://courses.edx.org/certificates/8637c5e2af514be7b8a181263e170c15"
+                        target="_blank"
+                        >HarvardX CS50</a
+                    >
+                </li>
+            </ul>
+        </div> -->
 
-        <!-- HEADER -->
-        <div class="container">
-            <header>
-                <h1 id="header-main">Astra's Gambit</h1>
-                <h2 id="header-sub">
-                    Valorant 5v5 Gaming Tournament                 </h2>
-            </header>
-        </div>
 
+        <!-- <div
+            class="about-me__container--image"
+            id="about-me-image"
+        >
+            <img
+                class="img-desktop"
+                width="661"
+                height="721"
+                src="./images/user/user.webp"
+                alt="user"
+            />
+            <img
+                class="img-mobile"
+                width="661"
+                height="721"
+                src="./images/user/user-mobile.webp"
+                alt="user"
+            />
+        </div> -->
+      </div>
 
-        <div class="container">
-            <main>
-                <!-- ABOUT ME -->
-                <div class="article-container about-me" id="about-me">
-                    <h2 class="article__header" id="header-1">
-                        Rules & Guidelines
-                    </h2>
-                    <div class="about-me__container">
-                        <div
-                            class="about-me__container--presentation"
-                            id="about-me-presentation"
-                        >
-                            <div class="presentation--intro">
-                                <!-- <h3>Rules</h3> -->
-                               <ul>
-                                <li> Toxic behaviour is not entertained and may lead to direct elimination.</li>
-                                <li> Substitute players is not mandatory.</li>
-                                <li> Tactical timeouts will be available for each side once per match.</li>
+    </div>
 
-                               </ul>
-                               <p>Qualifiers:
-                                - Every match will be an elimination round of best of 1.
-                                - Coin tosses will be performed to decide to choose the map and sides before each match.
-                                - Each team can ban a map before the starting of the match.
-                                - Facture map is out by default in the map pool.
-                                Finals:
-                                - Finals will be a best of 3.
-                                - Each team gets to ban and pick one map each and the last map by coin toss
-                               </p>
-                                </div>
-                            </div>
-                            <!-- <div class="presentation--hobbies">
-                                <h3>Hobbies</h3>
-                              <div class="para">
-                                <ul>
-                                    <li>Watching football</li>
-                                    <li>Photography and video-drone footage</li>
-                                    <li>Travel</li>
-                                </ul>
-                                </div>
-                            </div> -->
-                            <!-- <div class="presentation--hobbies">
-                                <h3>Certificates</h3>
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://courses.edx.org/certificates/8637c5e2af514be7b8a181263e170c15"
-                                            target="_blank"
-                                            >HarvardX CS50</a
-                                        >
-                                    </li>
-                                </ul>
-                            </div> -->
-                            <div class="presentation--resume">
-                                <a
-                                    class="btn-resume"
-                                    href="./documents/nikola-r-cv.pdf"
-                                    target="_blank"
-                                    >Join the Sail!</a
-                                >
-                            </div>
-                        </div>
-                        <!-- <div
-                            class="about-me__container--image"
-                            id="about-me-image"
-                        >
-                            <img
-                                class="img-desktop"
-                                width="661"
-                                height="721"
-                                src="./images/user/user.webp"
-                                alt="user"
-                            />
-                            <img
-                                class="img-mobile"
-                                width="661"
-                                height="721"
-                                src="./images/user/user-mobile.webp"
-                                alt="user"
-                            />
-                        </div> -->
-                    </div>
+    <!-- TECHNOLOGIES -->
+    <!-- <article
+        class="article-container technologies"
+        id="technologies"
+    >
+        <h2 class="article__header" id="header-2">
+            <span>02.</span> Technologies
+        </h2>
+        <div class="technologies__container">
+             HTML
+            <div class="col" id="col-1">
+                <div class="col--header">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
                 </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
+                                target="_blank"
+                            >
+                                ARIA
+                                <i
+                                    class="fas fa-universal-access"
+                                ></i>
+                            </a>
+                            <p>
+                                Make web pages accessible and
+                                well-formed
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+                                target="_blank"
+                            >
+                                Semantic HTML
+                                <i class="fas fa-code"></i>
+                            </a>
+                            <p>
+                                Provide the user a good way to
+                                navigate and interact with site.
+                                Making HTML code as semantic as
+                                possible.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                <!-- TECHNOLOGIES -->
-                <!-- <article
-                    class="article-container technologies"
-                    id="technologies"
-                >
-                    <h2 class="article__header" id="header-2">
-                        <span>02.</span> Technologies
-                    </h2>
-                    <div class="technologies__container">
-                         HTML
-                        <div class="col" id="col-1">
-                            <div class="col--header">
-                                <i class="fab fa-html5"></i>
-                                <h3>HTML</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
-                                            target="_blank"
-                                        >
-                                            ARIA
-                                            <i
-                                                class="fas fa-universal-access"
-                                            ></i>
-                                        </a>
-                                        <p>
-                                            Make web pages accessible and
-                                            well-formed
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
-                                            target="_blank"
-                                        >
-                                            Semantic HTML
-                                            <i class="fas fa-code"></i>
-                                        </a>
-                                        <p>
-                                            Provide the user a good way to
-                                            navigate and interact with site.
-                                            Making HTML code as semantic as
-                                            possible.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            CSS
+            <div class="col" id="col-2">
+                <div class="col--header">
+                    <i class="fab fa-css3"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://sass-lang.com/"
+                                target="_blank"
+                            >
+                                SASS
+                                <i class="fab fa-sass"></i>
+                            </a>
+                            <p>
+                                Writing <strong>$variables</strong>,
+                                clear <strong>nesting</strong> of
+                                CSS selectors, creating
+                                <strong>_partials</strong>, using
+                                <strong>modules</strong>, writing
+                                <strong>@mixin</strong>,...
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://getbootstrap.com/"
+                                target="_blank"
+                            >
+                                Bootstrap
+                                <i class="fab fa-bootstrap"></i>
+                            </a>
+                            <p>
+                                Quickly design and customize
+                                responsive mobile-first sites with
+                                Bootstrap.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://tailwindcss.com/"
+                                target="_blank"
+                            >
+                                Tailwind
+                                <i class="fas fa-file-code"></i>
+                            </a>
+                            <p>
+                                Using it as a utility-first CSS
+                                framework packed with classes like
+                                flex, pt-4, text-center and
+                                rotate-90 that can be composed to
+                                build any design, directly in your
+                                markup.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                        CSS
-                        <div class="col" id="col-2">
-                            <div class="col--header">
-                                <i class="fab fa-css3"></i>
-                                <h3>CSS</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://sass-lang.com/"
-                                            target="_blank"
-                                        >
-                                            SASS
-                                            <i class="fab fa-sass"></i>
-                                        </a>
-                                        <p>
-                                            Writing <strong>$variables</strong>,
-                                            clear <strong>nesting</strong> of
-                                            CSS selectors, creating
-                                            <strong>_partials</strong>, using
-                                            <strong>modules</strong>, writing
-                                            <strong>@mixin</strong>,...
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://getbootstrap.com/"
-                                            target="_blank"
-                                        >
-                                            Bootstrap
-                                            <i class="fab fa-bootstrap"></i>
-                                        </a>
-                                        <p>
-                                            Quickly design and customize
-                                            responsive mobile-first sites with
-                                            Bootstrap.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://tailwindcss.com/"
-                                            target="_blank"
-                                        >
-                                            Tailwind
-                                            <i class="fas fa-file-code"></i>
-                                        </a>
-                                        <p>
-                                            Using it as a utility-first CSS
-                                            framework packed with classes like
-                                            flex, pt-4, text-center and
-                                            rotate-90 that can be composed to
-                                            build any design, directly in your
-                                            markup.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            JAVASCRIPT
+            <div class="col" id="col-3">
+                <div class="col--header">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaSript</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/"
+                                target="_blank"
+                            >
+                                ES6
+                                <i class="fab fa-js-square"></i>
+                            </a>
+                            <p>
+                                Writing efficient and clean Vanilla
+                                JS ES6 code. I understand advanced
+                                conditionals in control flow, error
+                                handling, DOM manipulation,
+                                asynchronus JS.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://reactjs.org/"
+                                target="_blank"
+                            >
+                                ReactJS
+                                <i class="fab fa-react"></i>
+                            </a>
+                            <p>
+                                Basic knowladge of React library as
+                                React components, JSX, states,
+                                props, handling user events and
+                                lifecycle event in a React
+                                component.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.npmjs.com/"
+                                target="_blank"
+                            >
+                                npm
+                                <i class="fab fa-npm"></i>
+                            </a>
+                            <p>
+                                Familiar with npm and Yarn but found
+                                myself more comfortable with npm
+                                with creating package.json file,
+                                understanding dependencies,
+                                installing modules,...
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                        JAVASCRIPT
-                        <div class="col" id="col-3">
-                            <div class="col--header">
-                                <i class="fab fa-js"></i>
-                                <h3>JavaSript</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/"
-                                            target="_blank"
-                                        >
-                                            ES6
-                                            <i class="fab fa-js-square"></i>
-                                        </a>
-                                        <p>
-                                            Writing efficient and clean Vanilla
-                                            JS ES6 code. I understand advanced
-                                            conditionals in control flow, error
-                                            handling, DOM manipulation,
-                                            asynchronus JS.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://reactjs.org/"
-                                            target="_blank"
-                                        >
-                                            ReactJS
-                                            <i class="fab fa-react"></i>
-                                        </a>
-                                        <p>
-                                            Basic knowladge of React library as
-                                            React components, JSX, states,
-                                            props, handling user events and
-                                            lifecycle event in a React
-                                            component.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.npmjs.com/"
-                                            target="_blank"
-                                        >
-                                            npm
-                                            <i class="fab fa-npm"></i>
-                                        </a>
-                                        <p>
-                                            Familiar with npm and Yarn but found
-                                            myself more comfortable with npm
-                                            with creating package.json file,
-                                            understanding dependencies,
-                                            installing modules,...
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        GITHUB
-                        <div class="col" id="col-4">
-                            <div class="col--header">
-                                <i class="fab fa-git-alt"></i>
-                                <h3>GIT</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://git-scm.com/"
-                                            target="_blank"
-                                        >
-                                            Git
-                                            <i class="fab fa-git"></i>
-                                        </a>
-                                        <p>
-                                            Git is a free and open source
-                                            distributed version control system
-                                            designed to handle everything from
-                                            small to very large projects with
-                                            speed and efficiency. I am familiar
-                                            with simple to advance commands to
-                                            manage projects.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://github.com/"
-                                            target="_blank"
-                                        >
-                                            Github
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                        <p>
-                                            Millions of developers and companies
-                                            build their software on GitHub—the
-                                            largest and most advanced
-                                            development platform in the world. I
-                                            am familiar with creating
-                                            repositories on Github, reviewing
-                                            commits, etc.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            GITHUB
+            <div class="col" id="col-4">
+                <div class="col--header">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>GIT</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://git-scm.com/"
+                                target="_blank"
+                            >
+                                Git
+                                <i class="fab fa-git"></i>
+                            </a>
+                            <p>
+                                Git is a free and open source
+                                distributed version control system
+                                designed to handle everything from
+                                small to very large projects with
+                                speed and efficiency. I am familiar
+                                with simple to advance commands to
+                                manage projects.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/"
+                                target="_blank"
+                            >
+                                Github
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <p>
+                                Millions of developers and companies
+                                build their software on GitHub—the
+                                largest and most advanced
+                                development platform in the world. I
+                                am familiar with creating
+                                repositories on Github, reviewing
+                                commits, etc.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
-                        <div class="col" id="col-5">
-                            <div class="col--header">
-                                <i class="fas fa-tasks"></i>
-                                <h3>CMS</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://wordpress.com/"
-                                            target="_blank"
-                                        >
-                                            Wordpress
-                                            <i
-                                                class="fab fa-wordpress-simple"
-                                            ></i>
-                                        </a>
-                                        <p>
-                                            Familiar on building sites on
-                                            Wordpress and creating custom HTML
-                                            and CSS templates.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://woocommerce.com/"
-                                            target="_blank"
-                                        >
-                                            WooCommerce
-                                            <i
-                                                class="fab fa-wordpress-simple"
-                                            ></i>
-                                        </a>
-                                        <p>
-                                            Familiar on adding and customizing
-                                            products to Wordpress using
-                                            eCommerce platform WooCommerce.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://elementor.com/"
-                                            target="_blank"
-                                        >
-                                            Elementor
-                                            <i class="fab fa-elementor"></i>
-                                        </a>
-                                        <p>
-                                            One of the most famous Wordpress
-                                            page and theme builder. Easy to
-                                            design custom headers, footers,
-                                            postst, and WooCommerce pages.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="col" id="col-5">
+                <div class="col--header">
+                    <i class="fas fa-tasks"></i>
+                    <h3>CMS</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://wordpress.com/"
+                                target="_blank"
+                            >
+                                Wordpress
+                                <i
+                                    class="fab fa-wordpress-simple"
+                                ></i>
+                            </a>
+                            <p>
+                                Familiar on building sites on
+                                Wordpress and creating custom HTML
+                                and CSS templates.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://woocommerce.com/"
+                                target="_blank"
+                            >
+                                WooCommerce
+                                <i
+                                    class="fab fa-wordpress-simple"
+                                ></i>
+                            </a>
+                            <p>
+                                Familiar on adding and customizing
+                                products to Wordpress using
+                                eCommerce platform WooCommerce.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://elementor.com/"
+                                target="_blank"
+                            >
+                                Elementor
+                                <i class="fab fa-elementor"></i>
+                            </a>
+                            <p>
+                                One of the most famous Wordpress
+                                page and theme builder. Easy to
+                                design custom headers, footers,
+                                postst, and WooCommerce pages.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
-                        <div class="col" id="col-6">
-                            <div class="col--header">
-                                <i class="fas fa-object-group"></i>
-                                <h3>Design</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://www.figma.com/"
-                                            target="_blank"
-                                        >
-                                            Figma
-                                            <i class="fab fa-figma"></i>
-                                        </a>
-                                        <p>
-                                            Figma connects everyone in the
-                                            design process so teams can deliver
-                                            better products, faster. I designed
-                                            few websites with help of Figma who
-                                            helped me think the design process
-                                            easier when I coded websites.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.adobe.com/products/xd.html"
-                                            target="_blank"
-                                        >
-                                            Adobe XD
-                                            <i
-                                                class="fas fa-object-ungroup"
-                                            ></i>
-                                        </a>
-                                        <p>
-                                            Similar to Figma, Adobe XD is now
-                                            one of the major UI and UX design
-                                            platforms.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="col" id="col-6">
+                <div class="col--header">
+                    <i class="fas fa-object-group"></i>
+                    <h3>Design</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.figma.com/"
+                                target="_blank"
+                            >
+                                Figma
+                                <i class="fab fa-figma"></i>
+                            </a>
+                            <p>
+                                Figma connects everyone in the
+                                design process so teams can deliver
+                                better products, faster. I designed
+                                few websites with help of Figma who
+                                helped me think the design process
+                                easier when I coded websites.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.adobe.com/products/xd.html"
+                                target="_blank"
+                            >
+                                Adobe XD
+                                <i
+                                    class="fas fa-object-ungroup"
+                                ></i>
+                            </a>
+                            <p>
+                                Similar to Figma, Adobe XD is now
+                                one of the major UI and UX design
+                                platforms.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
 
-                        <div class="col" id="col-7">
-                            <div class="col--header">
-                                <i class="fas fa-file-image"></i>
-                                <h3>Photo Editors</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://www.adobe.com/products/photoshop.html"
-                                            target="_blank"
-                                        >
-                                            Adobe Photoshop
-                                            <i class="fas fa-images"></i>
-                                        </a>
-                                        <p>
-                                            Been using Photoshop a few years for
-                                            retouching my photos and design
-                                            websites.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://www.adobe.com/products/lightroom.html"
-                                            target="_blank"
-                                        >
-                                            Adobe Lightroom
-                                            <i class="fas fa-images"></i>
-                                        </a>
-                                        <p>
-                                            Since my main hobby is landscape
-                                            photography, Adobe Lightroom is my
-                                            favourite app for brighten photos,
-                                            bump up colors, and mask distracting
-                                            elements.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div class="col" id="col-7">
+                <div class="col--header">
+                    <i class="fas fa-file-image"></i>
+                    <h3>Photo Editors</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.adobe.com/products/photoshop.html"
+                                target="_blank"
+                            >
+                                Adobe Photoshop
+                                <i class="fas fa-images"></i>
+                            </a>
+                            <p>
+                                Been using Photoshop a few years for
+                                retouching my photos and design
+                                websites.
+                            </p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.adobe.com/products/lightroom.html"
+                                target="_blank"
+                            >
+                                Adobe Lightroom
+                                <i class="fas fa-images"></i>
+                            </a>
+                            <p>
+                                Since my main hobby is landscape
+                                photography, Adobe Lightroom is my
+                                favourite app for brighten photos,
+                                bump up colors, and mask distracting
+                                elements.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                        <div class="col" id="col-8">
-                            <div class="col--header">
-                                <i class="fas fa-film"></i>
-                                <h3>Video Editors</h3>
-                            </div>
-                            <div class="col--content">
-                                <ul>
-                                    <li>
-                                        <a
-                                            href="https://www.apple.com/final-cut-pro/"
-                                            target="_blank"
-                                        >
-                                            Final Cut Pro
-                                            <i class="fab fa-apple"></i>
-                                        </a>
-                                        <p>
-                                            Been using Final Cut Pro for editing
-                                            my drone videos. Final Cut Pro
-                                            offers the most advanced organizing
-                                            tools of any professional video
-                                            editing application.
-                                        </p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </article> -->
-
-
-            </main>
+            <div class="col" id="col-8">
+                <div class="col--header">
+                    <i class="fas fa-film"></i>
+                    <h3>Video Editors</h3>
+                </div>
+                <div class="col--content">
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.apple.com/final-cut-pro/"
+                                target="_blank"
+                            >
+                                Final Cut Pro
+                                <i class="fab fa-apple"></i>
+                            </a>
+                            <p>
+                                Been using Final Cut Pro for editing
+                                my drone videos. Final Cut Pro
+                                offers the most advanced organizing
+                                tools of any professional video
+                                editing application.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </article> -->
+    <div class="row w-100 ">
+      <div class="col-6 col-lg-4 mx-auto button1">
+        <div class="presentation--resume">
+          <a
+            class="btn-gold  active text-white flex-column" role="button" aria-pressed="true" href=""
+            target="_blank">
+            Join The Sail </a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-4  mx-auto button2">
+        <div class="presentation--resume">
+          <a
+            class="btn-gold  active text-white" role="button" aria-pressed="true" href="../index.html"
+            target="_blank">
+            Back To Home </a>
+        </div>
+      </div>
+    </div>
 
-        <!-- Personal Links
-        <section class="personal-social-media" id="personal-social-media">
-            <div>
-                <ul>
-                    <li>
-                        <a
-                            href="https://github.com/radanovicnikola93"
-                            target="_blank"
-                            aria-label="Github profile"
-                            ><i class="fab fa-github"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://www.linkedin.com/in/radanovicnikola/"
-                            target="_blank"
-                            aria-label="Linkedin profile"
-                            ><i class="fab fa-linkedin"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://twitter.com/nradanovic93"
-                            target="_blank"
-                            aria-label="Twitter profile"
-                            ><i class="fab fa-twitter"></i
-                        ></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+  </main>
+</div>
 
-        Personal email -->
-        <!-- <section class="personal-contact" id="personal-contact">
-            <div>
-                <ul>
-                    <li>
-                        <a
-                            aria-label="Send mail"
-                            href="mailto:radanovicnikola93@gmail.com"
-                            ><i class="fas fa-envelope"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a aria-label="Phone call" href="tel:040358165"
-                            ><i class="fas fa-phone"></i
-                        ></a>
-                    </li>
-                    <li>
-                        <a
-                            aria-label="Whatsupp"
-                            href="https://api.whatsapp.com/send?phone=040358165"
-                            ><i class="fab fa-whatsapp"></i
-                        ></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+<!-- Personal Links
+<section class="personal-social-media" id="personal-social-media">
+    <div>
+        <ul>
+            <li>
+                <a
+                    href="https://github.com/radanovicnikola93"
+                    target="_blank"
+                    aria-label="Github profile"
+                    ><i class="fab fa-github"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://www.linkedin.com/in/radanovicnikola/"
+                    target="_blank"
+                    aria-label="Linkedin profile"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    href="https://twitter.com/nradanovic93"
+                    target="_blank"
+                    aria-label="Twitter profile"
+                    ><i class="fab fa-twitter"></i
+                ></a>
+            </li>
+        </ul>
+    </div>
+</section>
 
-        gsap core        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+Personal email -->
+<!-- <section class="personal-contact" id="personal-contact">
+    <div>
+        <ul>
+            <li>
+                <a
+                    aria-label="Send mail"
+                    href="mailto:radanovicnikola93@gmail.com"
+                    ><i class="fas fa-envelope"></i
+                ></a>
+            </li>
+            <li>
+                <a aria-label="Phone call" href="tel:040358165"
+                    ><i class="fas fa-phone"></i
+                ></a>
+            </li>
+            <li>
+                <a
+                    aria-label="Whatsupp"
+                    href="https://api.whatsapp.com/send?phone=040358165"
+                    ><i class="fab fa-whatsapp"></i
+                ></a>
+            </li>
+        </ul>
+    </div>
+</section>
 
-        gsap custom animations
-        <script src="../scripts/gsap.js"></script>
-        navigation
-        <script src="../scripts/navigation.js"></script> -->
-    </body>
+gsap core        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+
+gsap custom animations
+<script src="../scripts/gsap.js"></script>
+navigation
+<script src="../scripts/navigation.js"></script> -->
+<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62622ac9404b8d319db40995"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+
+</body>
 </html>
 
