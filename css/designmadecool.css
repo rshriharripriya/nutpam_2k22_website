@@ -5468,7 +5468,8 @@ img {
   }
 
   .section.is-fullvh-vw {
-    height: auto;
+    padding-top: 500px;
+    height: 104em;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
