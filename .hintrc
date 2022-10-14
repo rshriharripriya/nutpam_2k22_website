@@ -8,6 +8,21 @@
       {
         "image-alt": "off"
       }
+    ],
+    "disown-opener": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "user-select"
+        ]
+      }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not ios_saf <= 16",
+    "not safari <= 16"
+  ]
 }
