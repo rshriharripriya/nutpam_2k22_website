@@ -280,7 +280,7 @@ header {
   }
 
   .article__header {
-    font-size: 1.5rem;
+    font-size: 4vh !important;
     /*margin-bottom: 5rem;*/
     border-bottom: 1px solid #EDE1A6;
     width: 100%;
@@ -289,6 +289,12 @@ header {
   header h2 {
     font-size: 4vh;
   }
+
+  .para {
+    font-size: 4vh;
+
+  }
+
 }
 
 .personal-social-media {
@@ -769,12 +775,12 @@ a {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 500px) {
   .presentation--resume {
     padding: 1.1em 1.2em 0.8em;
     font-size: 1em;
     background-color: transparent;
-    width: 95%;
+    width: 100%;
     height: 90%;
     right: 19vh;
     alignment: center !important;
@@ -784,11 +790,14 @@ a {
   .button1 {
     float: left;
     right: 5vh;
+    font-size: 1.4rem;
 
   }
 
   .button2 {
     /*left: 10vh;*/
+    font-size: 1.4rem;
+
   }
 }
 
