@@ -17227,7 +17227,7 @@ var swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination',
   },
   loop: true,
-  autoplay: true
+  autoplay: false
 });
 
 	function show(){
