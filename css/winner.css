@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 3px;
-color: #FDF47EFF;
+  color: #FDF47EFF;
   transition: all .4s ease;
 }
 
 ::-webkit-scrollbar-thumb {
- background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(227 208 108) 45%, rgb(253 244 126) 50%, rgb(247 235 122) 55%, rgb(156 136 68) 78%, rgb(127 104 52) 100% ) !important;
+  background-image: linear-gradient(0deg, #e3e5c5, #9fa169);
 
   border-radius: 4px;
   width: 4px;
@@ -22,85 +22,89 @@ color: #FDF47EFF;
 }
 
 
-html{
+html {
   overflow-x: hidden;
   user-select: none;
 }
 
 body {
- background-image: radial-gradient(
-circle
- , #030508 , #010428);
+  background-image: radial-gradient(
+    circle, #030508, #0f171f);
 
 }
+
 .heading-gold {
-	 height: 100%;
-	 width: 100%;
-	 display: flex;
-	 align-items: center;
-	 justify-content: center;
-}
- .heading-gold h1 {
-	background-image: linear-gradient( to bottom, rgb(255 248 158) 0, rgb(140 117 66) 22%, rgb(227 208 108) 45%, rgb(253 244 126) 50%, rgb(246 226 122) 55%, rgb(102 87 49) 78%, rgb(255 248 158) 100% );
-	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
-	 color: gold;
-	 font-family: 'Playfair Display', serif;
-	 position: relative;
-	 text-transform: uppercase;
-	 font-size: 7vw;
-	 margin: 0;
-	 font-weight: 400;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
- .heading-gold h1:after {
-	 background: none;
-	 content: attr(data-heading);
-	 left: 0;
-	 top: 0;
-	 z-index: -1;
-	 position: absolute;
-	 text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+.heading-gold h1 {
+  background-image: linear-gradient(0deg, #d5cc76, #9fa173);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: gold;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 7vw;
+  margin: 0;
+  font-weight: 400;
 }
 
- .heading-silver {
-	 height: 100%;
-	 width: 100%;
-	 display: flex;
-	 align-items: center;
-	 justify-content: center;
-}
- .heading-silver h1 {
-background-color: #d7d7d7;
-background-image: linear-gradient(to bottom, rgb(112 112 111) 0, rgb(122 122 122) 22%, rgb(222 222 220) 45%, rgb(216 216 214) 50%, rgb(216 216 214) 55%, rgb(105 105 103) 78%, rgb(53 53 53) 100%);
-	 -webkit-background-clip: text;
-	 -webkit-text-fill-color: transparent;
-	 color: gold;
-	 font-family: 'Playfair Display', serif;
-	 position: relative;
-	 text-transform: uppercase;
-	 font-size: 7vw;
-	 margin: 0;
-	 font-weight: 400;
+.heading-gold h1:after {
+  background: none;
+  content: attr(data-heading);
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
 }
 
- .heading-silver h1:after {
-	 background: none;
-	 content: attr(data-heading);
-	 left: 0;
-	 top: 0;
-	 z-index: -1;
-	 position: absolute;
-	 text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+.heading-silver {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-silver h1 {
+  background-color: #d7d7d7;
+  background-image: linear-gradient(to bottom, rgb(112 112 111) 0, rgb(122 122 122) 22%, rgb(222 222 220) 45%, rgb(216 216 214) 50%, rgb(216 216 214) 55%, rgb(105 105 103) 78%, rgb(53 53 53) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: gold;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 7vw;
+  margin: 0;
+  font-weight: 400;
+}
+
+.heading-silver h1:after {
+  background: none;
+  content: attr(data-heading);
+  left: 0;
+  top: 0;
+  z-index: -1;
+  position: absolute;
+  text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
 }
 
 
-.btn-gold{
-background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(227 208 108) 45%, rgb(253 244 126) 50%, rgb(247 235 122) 55%, rgb(156 136 68) 78%, rgb(127 104 52) 100% ) !important;
+.btn-gold {
+  background-image: linear-gradient(165deg, #8b8d5a, #e3e5c5);
+  font-family: Glorify;
+
 
 }
 
-.topic-container h2{
+.topic-container h2 {
   line-height: 68px;
 }
 
@@ -117,13 +121,13 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
 }
 
 
-
 .topic-container h2 {
   justify-content: center;
-  color: darkgoldenrod;
+  color: #8b8d5a;
   font-size: 60px;
   text-align: center;
 }
+
 .team-name {
   text-align: center;
   width: 100%;
@@ -131,7 +135,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
 }
 
 .team-name-silver p {
- background-image: repeating-linear-gradient(to right, rgb(112 112 111) 0, rgb(122 122 122) 22%, rgb(222 222 220) 45%, rgb(216 216 214) 50%, rgb(216 216 214) 55%, rgb(105 105 103) 78%, rgb(53 53 53) 100%);
+  background-image: repeating-linear-gradient(to right, rgb(112 112 111) 0, rgb(122 122 122) 22%, rgb(222 222 220) 45%, rgb(216 216 214) 50%, rgb(216 216 214) 55%, rgb(105 105 103) 78%, rgb(53 53 53) 100%);
   background-size: 150%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -144,7 +148,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
 
 @keyframes MoveBackgroundPosition {
   0% {
-      background-position: 0% 50%
+    background-position: 0% 50%
   }
 
   50% {
@@ -157,22 +161,21 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
 }
 
 
-
 .team-name-gold p {
-   background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-image: repeating-linear-gradient(to right, #d0d2b8 20%, #e3e5c5 40%, #9fa173 60%, #888863 80%, #e3e5c5 90%);
   background-size: 150%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4vw ;
+  font-size: 4vw;
   font-weight: 200;
-  font-family: "Poppins";
-  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  font-family: "Glorify";
+  filter: drop-shadow(0 0 1px rgb(139, 141, 90));
   animation: MoveBackgroundPosition 6s ease-in-out infinite;
 }
 
 @keyframes MoveBackgroundPosition {
   0% {
-      background-position: 0% 50%
+    background-position: 0% 50%
   }
 
   50% {
@@ -193,6 +196,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   flex-wrap: wrap;
   margin: 7rem 0 0;
 }
+
 .container-t .card-t {
   position: relative;
   width: 300px;
@@ -205,6 +209,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   justify-content: center;
   align-items: center;
 }
+
 .container-t .card-t .content {
   position: absolute;
   /* bottom: -160px; */
@@ -224,6 +229,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   transition: bottom 0.5s;
   transition-delay: 0.65s;
 }
+
 /* .container-t .card-t:hover .content {
   bottom: 0;
   transition-delay: 0s;
@@ -242,6 +248,7 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   opacity: 0;
   transform: translateY(-20px); */
 }
+
 /* .container-t .card-t:hover .content .contentBx h3 {
   opacity: 1;
   transform: translateY(0);
@@ -251,11 +258,13 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   font-weight: 300;
   text-transform: initial;
 }
+
 .container-t .card-t .content .sci {
   position: relative;
   bottom: 10px;
   display: flex;
 }
+
 .container-t .card-t .content .sci li {
   list-style: none;
   margin: 0 10px;
@@ -274,31 +283,38 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   color: white;
   font-size: 24px;
 }
+
 @media only screen and (max-width: 550px) {
 
-    .heading-gold h1{
-        font-size: 50px !important;
-    }
-    .heading-silver h1{
-        font-size: 50px !important;
-    }
-    .team-name-gold p{
-         font-size: 30px !important;
-    }
-    .team-name-silver p {
-         font-size: 30px !important;
-    }
+  .heading-gold h1 {
+    font-size: 40px !important;
+    font-family: Glorify;
+  }
+
+  .heading-silver h1 {
+    font-size: 50px !important;
+  }
+
+  .team-name-gold p {
+    font-size: 30px !important;
+    font-family: Glorify;
+
+  }
+
+  .team-name-silver p {
+    font-size: 30px !important;
+  }
 }
 
 @media only screen and (max-width: 454px) {
-  .topic-container h2{
+  .topic-container h2 {
     line-height: 63px;
   }
+
   .addm {
     top: 1rem;
   }
 }
-
 
 
 /*Style for circular cards */
@@ -307,11 +323,11 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
   text-align: center;
-  -webkit-box-shadow:inset 0px 0px 8px 1px rgb(150, 129, 64), 0px 0px 8px 1px rgb(253, 244, 126);
-  -moz-box-shadow:inset 0px 0px 8px 1px rgb(150, 129, 64), 0px 0px 8px 1px rgb(253, 244, 126);
-  box-shadow:inset 0px 0px 8px 2px #564b25, 0px 0px 8px 2px #ffd965;
+  -webkit-box-shadow: inset 0px 0px 8px 1px rgb(150, 129, 64), 0px 0px 8px 1px rgb(253, 244, 126);
+  -moz-box-shadow: inset 0px 0px 8px 1px rgb(150, 129, 64), 0px 0px 8px 1px rgb(253, 244, 126);
+  box-shadow: inset 0px 0px 8px 2px #564b25, 0px 0px 8px 2px #ffd965;
   background: transparent !important;
-    color: #ffffff;
+  color: #ffffff;
   border: none !important;
   font-size: 18px;
 }
@@ -320,28 +336,29 @@ background-image: linear-gradient( rgb(150 129 64) 0, rgb(150 129 64) 22%, rgb(2
   padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
   text-align: center;
-  -webkit-box-shadow:inset 0px 0px 8px 2px #d7d7d7, 0px 0px 8px 2px #353535;
+  -webkit-box-shadow: inset 0px 0px 8px 2px #d7d7d7, 0px 0px 8px 2px #353535;
   -moz-box-shadow: inset 0px 0px 8px 2px #d7d7d7, 0px 0px 8px 2px #353535;
-  box-shadow:inset 0px 0px 8px 2px #353535, 0px 0px 8px 2px #ffffff;
+  box-shadow: inset 0px 0px 8px 2px #353535, 0px 0px 8px 2px #ffffff;
   background: transparent !important;
   background-color: #d7d7d7;
-background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+  background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
 
-    color: #ffffff;
+  color: #ffffff;
   border: none !important;
   font-size: 18px;
 }
+
 .card-gold img {
   /*width:calc(100vw / 6);
    height:calc(100vw / 6);*/
 
-   width: 200px;
+  width: 200px;
   height: 200px;
   object-fit: cover;
 
-   background:transparent;
-   border-radius:51%;
-   margin: 0 auto;
+  background: transparent;
+  border-radius: 51%;
+  margin: 0 auto;
   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -349,21 +366,24 @@ background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
   /*width:calc(100vw / 6);
    height:calc(100vw / 6);*/
 
-   width: 200px;
+  width: 200px;
   height: 200px;
   object-fit: cover;
 
-   background:transparent;
-   border-radius:51%;
-   margin: 0 auto;
+  background: transparent;
+  border-radius: 51%;
+  margin: 0 auto;
   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
 }
+
 .card-gold .card-title {
+  font-family: Glorify;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   /*font-size:2vw;*/
 }
+
 .card-silver .card-title {
   font-weight: 700;
   font-size: 18px;
@@ -372,10 +392,11 @@ background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
 }
 
 
-.card-gold .card-text{
+.card-gold .card-text {
   font-size: 18px;
 }
-.card-silver .card-text{
+
+.card-silver .card-text {
   font-size: 18px;
 }
 
