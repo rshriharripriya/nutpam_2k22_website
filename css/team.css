@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+  font-family: 'Glorify';
+  src: url('https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/62622b1090aa05a8d0f90c43_Glorify-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 
-::-webkit-scrollbar{
+@font-face {
+  font-family: 'Glorify';
+  src: url('https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/62622b917678a2676fd325ae_Glorify-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glorify';
+  src: url('https://uploads-ssl.webflow.com/62622ac9404b8d319db40995/626250d2edd0e87b33b273be_Glorify-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+::-webkit-scrollbar {
   width: 3px;
   color: #79FE0C;
   transition: all .4s ease;
@@ -17,7 +40,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Glorify", sans-serif;
 }
 
 
@@ -30,7 +53,7 @@ body {
   background: #171717;
 }
 .btn-green{
-  background-color: #21c764 !important;
+  /*background-color: #21c764 !important;*/
   color: #fff !important;
 }
 
@@ -178,11 +201,11 @@ body {
   padding: 1.5em 0.5em 0.5em;
   border-radius: 2em;
   text-align: center;
-  -webkit-box-shadow:inset 0px 0px 8px 1px rgb(251, 255, 165) , 0px 0px 8px 1px rgb(234, 255, 174);
-  -moz-box-shadow:inset 0px 0px 8px 1px rgb(254, 255, 201) , 0px 0px 8px 1px rgb(255, 251, 166);
-  box-shadow:inset 0px 0px 8px 1px rgb(247, 255, 196) , 0px 0px 8px 1px rgb(255, 246, 218);
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgb(251, 255, 165), 0px 0px 5px 1px rgb(234, 255, 174);
+  -moz-box-shadow: inset 0px 0px 3px 1px rgb(251, 255, 165), 0px 0px 3px 1px rgb(234, 255, 174);
+  box-shadow: inset 0px 0px 4px 1px rgb(251, 255, 165), 0px 0px 4px 1px rgb(234, 255, 174);
   background: transparent !important;
-    color: #ffffff;
+  color: #ffffff;
   border: none !important;
   font-size: 18px;
 }
@@ -203,10 +226,14 @@ body {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
+  font-family: Glorify;
+
   /*font-size:2vw;*/
 }
 
-.card .card-text{
+.card .card-text {
   font-size: 18px;
+  font-family: Glorify;
+
 }
 
