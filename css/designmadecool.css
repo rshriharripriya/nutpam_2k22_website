@@ -5503,7 +5503,7 @@ img {
   }
 
   .section.is-hero {
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     margin-bottom: 0vh;
   }
@@ -5528,7 +5528,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 85vh;
+    height: 100vh;
     margin-bottom: 0vh;
     padding-top: 20vh;
     -webkit-box-orient: vertical;
