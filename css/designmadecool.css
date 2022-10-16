@@ -5461,11 +5461,10 @@ img {
 }
 
 @media screen and (max-width: 479px) {
-  .loader {
-    width: 100vw;
-    height: 100vh;
-  }
-
+  /*.loader {*/
+  /*  width: 100vw;*/
+  /*  height: 100vh;*/
+  /*}*/
   h1 {
     font-size: 11.2em;
   }
