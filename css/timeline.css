@@ -1,9 +1,10 @@
-body{
-  
-  background:grey;
-  margin:0;
+body {
+
+  background: grey;
+  margin: 0;
 }
-h2{
+
+h2 {
   position: relative;
   margin-top: 100px;
   font-family: sans-serif;
@@ -11,22 +12,23 @@ h2{
   color: #116511;
   font-size: 5vw;
 }
-svg{
-  position:absolute;
-  top:50vh;
-  overflow:visible;
+
+svg {
+  position: absolute;
+  top: 50vh;
+  overflow: visible;
 
 }
 
-.stop{
-  fill:dimgrey;
-  stroke-width:0;
-  visibility:hidden;
+.stop {
+  fill: dimgrey;
+  stroke-width: 0;
+  visibility: hidden;
 }
 
-.end{
+.end {
   font-size: 36px;
   font-family: sans-serif;
   font-weight: 700;
-  visibility:hidden;
+  visibility: hidden;
 }

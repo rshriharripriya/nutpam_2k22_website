@@ -185,9 +185,19 @@ body {
 
 
 @media only screen and (max-width: 454px) {
-  .topic-container h2{
+  .bottom {
+    padding-bottom: 100px !important;
+    font-size: 5rem;
+  }
+
+  .top {
+    padding-top: 100px !important;
+  }
+
+  .topic-container h2 {
     line-height: 63px;
   }
+
   .addm {
     top: 1rem;
   }

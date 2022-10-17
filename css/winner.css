@@ -42,11 +42,13 @@ body {
 }
 
 .heading-gold h1 {
-  background-image: linear-gradient(0deg, #d5cc76, #9fa173);
+  /*background-image: linear-gradient(0deg, #d5cc76, #9fa173);*/
+  background-image: linear-gradient(0deg, #e3e5c5, #9fa169);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: gold;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Glorify', serif;
   position: relative;
   text-transform: uppercase;
   font-size: 7vw;
