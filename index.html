@@ -1088,6 +1088,159 @@ WIPRO, Inautix, CTS, ZOHO, L & T InfoTech, Amazon and so on.
         </div>
       </div>
 
+      <section>
+        <div class="work-heading-wrap" id="team">
+          <div class="skill-heading-wrap pt-5 mt-5 mb-0">
+            <h2 class="h2 mb-0">Timeline</h2>
+            <div class="hedling-line-wrap mb-0"></div>
+          </div>
+  
+        </div>
+        
+        <script>var GreenLine = $('.theGreenLine');
+          var stops = $('.stop');
+
+          TweenMax.set(GreenLine,{strokeWidth:2, drawSVG:"0%"});
+          TweenMax.set(stops,{autoAlpha:1, scale:0, transformOrigin:"center"});
+
+          // ==============================
+          TweenLite.defaultEase = Power0.easeNone;
+          var topEase = Elastic.easeOut.config(1.5, 1);
+
+          // time should  be adjusted relative to window width
+          // e.g. ww < 500  it should be 8 - 12
+
+          var time = 9;
+          var time02 = 3;
+          var timestop01 = time / 5.55;
+          var timestop02 = time / 2.68;
+          var timestop03 = time / 2.8;
+          var timestop04 = time / 2.4;
+          var timestop05 = time / 2.03;
+          var stop = .5;
+
+          var action = new TimelineMax({paused:true})
+          .to(GreenLine,time,{drawSVG:"0% 75%"})
+          .to(GreenLine,time02,{drawSVG:"0% 100%"}) // option: separate sections, individual timings
+          .to(GreenLine,time,{strokeWidth:20},0)
+          .to('.stop01',stop,{scale:1},timestop01)
+          .to('.end',0.3,{autoAlpha:1},timestop01)
+          .to('.stop02',stop,{scale:1},timestop02)
+          .to('.stop03',stop,{scale:1},timestop03)
+          .to('.stop04',stop,{scale:1},timestop04)
+          .to('.stop05',stop,{scale:1},timestop05)
+          //.to('.end',stop,{autoAlpha:1},time + time02)
+
+
+          // media query event handler
+          var factor;
+
+          const mq = window.matchMedia("(min-width: 500px)");
+
+          if (matchMedia) {
+          mq.addListener(WidthChange);
+          WidthChange(mq);
+          }
+
+          // media query change
+          function WidthChange(mq) {
+            if (mq.matches) {
+
+              factor = .95;
+
+            } else {
+
+              factor = .8;
+            }
+          }
+
+          WidthChange(mq);
+
+          // === scrolling sync  by requestAnimationFrame  ===========
+          // Based on https://www.html5rocks.com/en/tutorials/speed/animations/#debouncing-scroll-events
+
+          var latestKnownScrollY = 0,
+              lastScrollTop = 0,
+              ticking = false;
+
+
+          function onScroll() {
+            latestKnownScrollY = window.scrollY; //No IE8
+            requestTick();
+          }
+
+          function update() {
+            // reset the tick so we can
+            // capture the next onScroll
+            ticking = false;
+            scrollDistance = $('.line').height() *1;
+
+            scrollPercent = $(window).scrollTop() / (scrollDistance - $(window).height());
+
+            var progressAction = scrollPercent*factor; // factor x
+
+            if (latestKnownScrollY > lastScrollTop) {  // downscroll
+              TweenLite.to(action, 0, {progress:progressAction, ease: Power0.easeNone});
+            } else {
+              TweenLite.to(action, 0, {progress:progressAction, ease: Power0.easeNone});
+            }
+
+            lastScrollTop = latestKnownScrollY;
+            console.log(scrollDistance);
+
+          }
+
+          function requestTick() {
+            if(!ticking) {
+              requestAnimationFrame(update);
+            }
+            ticking = true;
+          }
+
+           window.addEventListener('scroll', onScroll, false);
+
+          // . lodash.js ===========
+          $(window).on('resize', _.debounce(function() {
+
+            update();
+          }, 400));</script>
+        <svg class="line" viewBox="0 0 600 2800">
+
+          <path class="theBlackLine"
+                d="M -5,0
+                   Q 450 230 300 450
+                   T 130 750
+                   Q 100 850 300 1000
+                   T 150 1400
+                   Q -150 1600 250 2000
+                   T 0 2500"
+                fill="none" stroke="#676767" stroke-width="1px" />
+
+          <path class="theGreenLine"
+                d="M -5,0
+                   Q 450 230 300 450
+                   T 130 750
+                   Q 100 850 300 1000
+                   T 150 1400
+                   Q -150 1600 250 2000
+                   T 0 2500"
+                fill="none" stroke="#ACAF87" stroke-width="2px" />
+
+          <circle class="stop01 stop" cx="337" cy="340" r="20" />
+          <circle class="stop02 stop" cx="126" cy="775" r="20" />
+          <circle class="stop03 stop" cx="372" cy="1117" r="20" />
+          <circle class="stop04 stop" cx="117" cy="1425" r="20" />
+          <circle class="stop05 stop" cx="213" cy="1962" r="20" />
+
+          <text class="end" x="375" y="356" fill="white" font-size=25>Astra's Gambit</text>
+          <text class="end" x="180" y="800" fill="white" font-size=25>Fountain of youth</text>
+          <text class="end" x="400" y="1170" fill="white" font-size=25>Scheming Dutchmen</text>
+          <text class="end" x="150" y="1500" fill="white" font-size=25>Calypso's Sculpts </text>
+          <text class="end" x="240" y="1950" fill="white" font-size=25>Lunch time</text>
+          <text class="end" x="135" y="2550" fill="White" font-size=25>Code D Buggy</text>
+
+        </svg>
+        <section>
 
       <h2 class="blog-header pt-5 color"> Event <span class="color">Timeline </span></h2>
       <div class="container-fluid p-5">
