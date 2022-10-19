@@ -1070,6 +1070,7 @@ WIPRO, Inautix, CTS, ZOHO, L & T InfoTech, Amazon and so on.
                 </h3>
               </div>
             </div>
+
             <div class="swiper-slide">
               <div class="imgBox">
                 <img src="img\marine foard\VASANTH PRIYADHARSAN V.jpeg"></div>
@@ -1107,12 +1108,12 @@ WIPRO, Inautix, CTS, ZOHO, L & T InfoTech, Amazon and so on.
           <p class="col-2 col-lg-5 p-0 m-0"></p>
           <p class="col-7 p-0 m-0">
             <a href="TEAM.html"
-               class="teamview p-0">View More</a>
+               class="teamview p-0">View More</a> 
           </p>
           <p class="col-lg-4 p-0 m-0"></p>
         </div>
       </div>
-
+    </div>
       <section>
         <div class="work-heading-wrap" id="timeline">
           <div class="skill-heading-wrap pt-5 mt-5 mb-0">
@@ -1159,6 +1160,19 @@ WIPRO, Inautix, CTS, ZOHO, L & T InfoTech, Amazon and so on.
 
           </svg>
         </div>
+        <script>window.addEventListener('scroll', function() {
+          let l = theGreenLine.getTotalLength();
+          let dasharray = l;
+          let dashoffset = l;
+          e = document.documentElement;
+          theFill.setAttributeNS(null, "stroke-dasharray", l);
+          theFill.setAttributeNS(null, "stroke-dashoffset", l);
+          dashoffset = l - window.scrollY * l / (e.scrollHeight - e.clientHeight);
+          console.log('window.scrollY', window.scrollY, 'scrollTop', e.scrollTop, 'scrollHeight', e.scrollHeight, 'clientHeight', e.clientHeight, 'dash-offset', dashoffset);
+          theFill.setAttributeNS(null, "stroke-dashoffset", dashoffset);
+        })
+        </script>
+      </section>
         <section>
 
           <h2 class="blog-header pt-5 color"> Event <span class="color">Timeline </span></h2>
