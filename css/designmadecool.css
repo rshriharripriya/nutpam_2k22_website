@@ -4882,6 +4882,7 @@ img {
 .loader-img-cont {
   position: relative;
   alignment: center;
+  left: 5%;
   overflow: hidden;
   width: 7.1em;
   height: 10.2em;
