@@ -4053,7 +4053,7 @@ img {
 .quote-value {
   position: absolute;
   left: 10.7em;
-  top: 0%;
+  top: 0;
   right: auto;
   bottom: auto;
   width: 31.37em;
@@ -4063,11 +4063,11 @@ img {
 .quote-faster {
   position: absolute;
   left: auto;
-  top: -1.3em;
+  top: -3.3em;
   right: 10.69em;
   bottom: auto;
-  width: 36.44em;
-  height: 24.25em;
+  width: 31.37em;
+  height: 21em;
 }
 
 .quote-than {
@@ -5955,7 +5955,7 @@ img {
 
   .contact-cta {
     left: 25.6em;
-    top: -51.1vh;
+    top: -75.1em;
     bottom: 0em;
     width: 30em;
     height: 30em;
