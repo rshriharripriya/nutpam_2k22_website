@@ -7548,3 +7548,32 @@ button.swiper-pagination-bullet {
     display: none;
   }
 }
+
+svg {
+  position: relative;
+  top: 50vh;
+  overflow: visible;
+  /*font-s/ize: 1em;*/
+
+}
+
+.stop {
+  fill: dimgrey;
+  stroke-width: 0;
+  /*visibility:hidden;*/
+  /*font-size: 2rem;*/
+
+}
+
+.end {
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 700;
+  /*visibility:hidden;*/
+  /*font-size: 2rem;*/
+
+}
+
+/*.timeline-visible{*/
+/* overflow: clip !important;*/
+/*}*/
