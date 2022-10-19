@@ -7336,11 +7336,11 @@ button.swiper-pagination-bullet {
 
 .blog-text p {
   opacity: .9;
-  padding-left: 30px;
+  padding: 30px;
   font-size: 18px;
   font-weight: 500;
   height: 30%;
-  padding-right: 0 !important;
+  /*padding: 10px;-->*/
   letter-spacing: 1px;
   background-color: black;
 
