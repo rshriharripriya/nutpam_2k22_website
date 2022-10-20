@@ -305,6 +305,18 @@ header {
 
 }
 
+@media (max-width: 400px) {
+  .bottom {
+    margin-bottom: 20px !important;
+    font-size: 4.3vw;
+    padding-bottom: 10px !important;
+  }
+
+  .top {
+    padding-top: 20px !important;
+    margin-top: 10px !important;
+  }
+}
 .personal-social-media {
   height: 30vh;
   position: fixed;
@@ -784,6 +796,10 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    margin: 1.5rem !important;
+  }
+
   .presentation--resume {
     padding: 1.1em 1.2em 0.8em;
     font-size: 1em;
@@ -796,14 +812,15 @@ a {
   }
 
   .button1 {
-    float: left;
-    right: 5vh;
+    /*float: left;*/
+    /*right: 5vh;*/
     font-size: 1.4rem;
 
   }
 
   .button2 {
-    /*left: 10vh;*/
+    /*float: right;*/
+    /*left: 5vh;*/
     font-size: 1.4rem;
 
   }
