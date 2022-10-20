@@ -3885,6 +3885,7 @@ img {
 .skills-base-img {
   width: 100%;
   height: 100%;
+  
   margin-bottom: 400666px;
 }
 
@@ -5458,6 +5459,7 @@ img {
   margin-left: 4px;
 }
 .about-para{
+  
   font-family: "Times New Roman";
   font-weight: 300 !important;
   line-height: 20px !important;
