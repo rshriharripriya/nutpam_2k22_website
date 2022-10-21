@@ -5476,6 +5476,23 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+
+  .loader-markup-bg {
+    position: absolute;
+    left: -20rem;
+    top: -13.35em;
+    z-index: 0;
+    width: 7rem;
+    height: 9rem;
+  }
+
+  .loader-text {
+    font-size: 2em;
+    line-height: 0.9;
+    font-weight: 400;
+    text-transform: none;
+  }
+
   .about-para {
 
 
