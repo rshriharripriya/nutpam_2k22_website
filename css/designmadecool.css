@@ -5514,8 +5514,9 @@ img {
 
   p {
     font-size: 3em;
-    margin-left: 10em;
+    margin-left: 6em;
     margin-top: auto;
+    width: 176px
   }
 
   .section {
@@ -5918,7 +5919,7 @@ img {
   }
 
   .skills-para {
-    top: 80.4em!important;
+    top: 73.4em!important;
     /*padding-bottom: 3em !important;*/
     width: 78.5em;
     right: 50% !important;
