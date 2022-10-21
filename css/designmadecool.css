@@ -3885,7 +3885,7 @@ img {
 .skills-base-img {
   width: 100%;
   height: 100%;
-  
+
   margin-bottom: 400666px;
 }
 
@@ -5459,10 +5459,12 @@ img {
   margin-left: 4px;
 }
 .about-para{
-  
+
   font-family: "Times New Roman";
   font-weight: 300 !important;
-  line-height: 20px !important;
+  line-height: 27px !important;
+  text-align: justify !important;
+  font-size: 1.0000001rem;
 
 }
 .image-4 {
@@ -5474,6 +5476,15 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .about-para {
+
+
+    font-weight: 300 !important;
+    line-height: 30px !important;
+    font-size: 1.2rem;
+    justify-content: space-around;
+  }
+
   /*.loader {*/
   /*  width: 100vw;*/
   /*  height: 100vh;*/
@@ -5521,7 +5532,7 @@ img {
   }
 
   .section.is-fullvh-vw {
-    padding-top: 500px;
+    padding-top: 220px;
     height: 104em;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -5965,7 +5976,7 @@ img {
   }
 
   .contact-character-cont {
-    left: 20.9em;
+    left: 18em;
     bottom: 22.1em;
     -webkit-transform: scale(1.48);
     -ms-transform: scale(1.48);
@@ -6009,7 +6020,7 @@ img {
   }
 
   .about-door-wrap {
-    height: 190em;
+    height: 58rem;
   }
 
   .about-door-in {
@@ -6059,7 +6070,7 @@ img {
 
   .hori-frame {
     width: auto;
-    height: 581em;
+    height: 530em;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
