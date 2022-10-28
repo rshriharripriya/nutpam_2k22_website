@@ -14273,7 +14273,7 @@ setTimeout(() => {
   setInterval(count, 1000);
 }, d % 1000);
 
-if (new Date() > new Date('2022-10-28T10:00:00')) {
+if (new Date() > new Date('2022-11-02T10:00:00')) {
   d = null;
   count.seconds = null;
   count.hours = null;

@@ -19,7 +19,7 @@ html {
 
 ::-webkit-scrollbar {
   width: 3px;
-  color: #e3e5c5;
+  color: rgba(255, 255, 255, 0.93);
   transition: all .4s ease;
 }
 
@@ -865,6 +865,10 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 1500px) {
+  .skill-mid-wrap {
+    right: 5%;
+  }
+
   #blog {
     background: #000001;
     display: none;
@@ -3224,7 +3228,7 @@ img {
   font-size: 3vh;
   color: white;
   width: 90vw;
-  /*right:30%;*/
+  /*right:5%;*/
 }
 
 .skill-btm-wrap {
@@ -3354,6 +3358,25 @@ img {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
+  align-items: center;
+}
+
+.thicc {
+  /*position: relative;*/
+  /*display: -webkit-box;*/
+  /*display: -webkit-flex;*/
+  /*display: -ms-flexbox;*/
+  /*display: flex;*/
+  font-size: 5rem;
+  height: 4em;
+  margin-right: auto;
+  margin-left: auto;
+  /*-webkit-justify-content: space-around;*/
+  /*-ms-flex-pack: distribute;*/
+  /*justify-content: space-around;*/
+  /*-webkit-box-align: center;*/
+  /*-webkit-align-items: center;*/
+  /*-ms-flex-align: center;*/
   align-items: center;
 }
 
@@ -4082,7 +4105,7 @@ img {
 
 .quote-it {
   position: absolute;
-  left: 15.88em;
+  left: 25.88em;
   top: 0%;
   right: auto;
   bottom: auto;
@@ -4222,6 +4245,31 @@ img {
   z-index: 2;
   width: 40em;
   height: 40em;
+}
+
+.contact-footer-text-1 {
+  display: block;
+  padding: 0.75em 1.25em 0.63em;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  border-radius: 1em;
+  background-color: hsla(0, 0%, 100%, 0.07);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(7px);
+  text-decoration: none;
 }
 
 .contact-footer-text-1 {
@@ -5476,6 +5524,24 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .thicc {
+    /*position: relative;*/
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    font-size: 5rem;
+    height: 5em;
+    margin-right: auto;
+    margin-left: auto;
+    /*-webkit-justify-content: space-around;*/
+    /*-ms-flex-pack: distribute;*/
+    /*justify-content: space-around;*/
+    /*-webkit-box-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*-ms-flex-align: center;*/
+    align-items: center;
+  }
 
   .loader-markup-bg {
     position: absolute;
@@ -5526,7 +5592,8 @@ img {
     font-size: 2vh;
     color: white;
     width: 100%;
-    /*right:-10%;*/
+    left: 0em;
+
   }
 
   p {
@@ -7598,6 +7665,11 @@ button.swiper-pagination-bullet {
 }
 
 @media screen and (max-width: 479px) {
+  .footer p {
+    left: 50%;
+    margin-left: 0 !important;
+  }
+
   .hidden-mobile {
     display: none;
   }
