@@ -865,6 +865,11 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 1500px) {
+  .contact-scene {
+    position: absolute;
+    left: -10.9em;
+  }
+
   .skill-mid-wrap {
     right: 5%;
   }
@@ -1065,6 +1070,7 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+
   .w-hidden-main {
     display: inherit !important
   }
@@ -3368,7 +3374,7 @@ img {
   /*display: -ms-flexbox;*/
   /*display: flex;*/
   font-size: 5rem;
-  height: 4em;
+  /*height: 4em;*/
   margin-right: auto;
   margin-left: auto;
   /*-webkit-justify-content: space-around;*/
@@ -5530,8 +5536,8 @@ img {
     /*display: -webkit-flex;*/
     /*display: -ms-flexbox;*/
     /*display: flex;*/
-    font-size: 5rem;
-    height: 5em;
+    /*font-size: 5rem;*/
+    /*height: 5em;*/
     margin-right: auto;
     margin-left: auto;
     /*-webkit-justify-content: space-around;*/
@@ -6357,6 +6363,10 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .thicc {
+    height: unset !important;
+    font-size: 3rem;
+  }
 
   #timer {
     position: absolute;
