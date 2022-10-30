@@ -33,18 +33,35 @@
   />
 </head>
 <style>
+  @media (max-width: 500px) {
+
+    /*body{*/
+    /*  height: 150rem !important;*/
+    /*}*/
+    html {
+      height: 90rem !important;
+
+    }
+
+  }
+
   #discord-button .icon {
     width: 25px;
-    height: 25px;
+    height: 2.7rem;
     margin-right: 15px;
   }
 
   #discord-button .icon svg {
     fill: white;
+    height: 2.4rem;
+
   }
 
   #discord-button a {
     color: white;
+    font-size: 1.3rem;
+    margin-left: 2.3rem;
+
     font-weight: bold;
     border-radius: 8px;
     display: inline-flex;
@@ -59,6 +76,8 @@
   }
 
   #discord-button {
+    height: 1.4rem;
+    width: fit-content;
     /* align-content: flex-start;*/
     /*display: flex;*/
     /*align-items: stretch;*/
@@ -145,12 +164,11 @@
       </div>
     </div>
     <!-- IGNORE - just for the live preview -->
-    <div class="row w-100 ">
-      <div class="col-4">
-
+    <div class="row w-100 m-0 p-0 ">
+      <div class="col-sm- col-lg-4 ">
       </div>
-      <div class="col-4">
-        <div id="discord-button">
+      <div class="col-sm-8 col-lg-6  m-0 p-0 ">
+        <div id="discord-button" class="m-sm-0 p-sm-0">
           <a href="http://www.discord.gg/kwyBze6W5x" target="_blank">
             <div class="icon">
               <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
@@ -164,7 +182,7 @@
           </a>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-sm-1  col-lg-3  m-0 p-0 ">
 
       </div>
     </div>
