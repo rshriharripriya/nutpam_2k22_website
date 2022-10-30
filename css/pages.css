@@ -758,7 +758,7 @@ article {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-left: 2em;
+  margin-left: 1rem;
   border: 1px solid #fff;
   border-radius: 0.5em;
   background-color: transparent;
