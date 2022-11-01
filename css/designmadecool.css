@@ -3354,16 +3354,21 @@ img {
 }
 
 .ieee1 {
-  height: 5rem !important;
-  width: 7rem !important;
-  left: 3rem !important;
+  height: 6rem !important;
+  width: 16rem !important;
+  left: 7rem !important;
 }
 
 .ieee2 {
-  height: 5rem !important;
-  width: 7rem !important;
-  right: 3rem !important;
+  height: 6rem !important;
+  width: 16rem !important;
+  right: 10rem !important;
+}
 
+.ds {
+  height: 8rem !important;
+  width: 16rem !important;
+  right: 10rem !important;
 }
 
 .quote-top-cont {
@@ -5559,6 +5564,25 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .ieee1 {
+    height: 3rem !important;
+    width: 7rem !important;
+    left: 3rem !important;
+  }
+
+  .ieee2 {
+    height: 3rem !important;
+    width: 7rem !important;
+    right: 3rem !important;
+
+  }
+
+  .ds {
+    height: 3rem !important;
+    width: 7rem !important;
+    right: 3rem !important;
+
+  }
 
   .titlespn {
     width: 5rem !important;
